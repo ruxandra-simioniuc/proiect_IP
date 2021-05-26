@@ -38,13 +38,15 @@
             this.button_finalReservation = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label_finalDestination = new System.Windows.Forms.Label();
+            this.ContentFinalDetails = new System.Windows.Forms.Panel();
+            this.ContentFinalDetails.SuspendLayout();
             this.SuspendLayout();
             // 
             // label_greeting
             // 
             this.label_greeting.AutoSize = true;
             this.label_greeting.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_greeting.Location = new System.Drawing.Point(48, 73);
+            this.label_greeting.Location = new System.Drawing.Point(39, 68);
             this.label_greeting.Name = "label_greeting";
             this.label_greeting.Size = new System.Drawing.Size(1244, 44);
             this.label_greeting.TabIndex = 0;
@@ -54,7 +56,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(257, 297);
+            this.label1.Location = new System.Drawing.Point(248, 292);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(441, 44);
             this.label1.TabIndex = 1;
@@ -64,7 +66,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(421, 385);
+            this.label2.Location = new System.Drawing.Point(412, 380);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(277, 44);
             this.label2.TabIndex = 2;
@@ -74,7 +76,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(501, 476);
+            this.label3.Location = new System.Drawing.Point(492, 471);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(197, 44);
             this.label3.TabIndex = 3;
@@ -84,7 +86,7 @@
             // 
             this.label_finalSelectedSeats.AutoSize = true;
             this.label_finalSelectedSeats.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_finalSelectedSeats.Location = new System.Drawing.Point(704, 297);
+            this.label_finalSelectedSeats.Location = new System.Drawing.Point(695, 292);
             this.label_finalSelectedSeats.Name = "label_finalSelectedSeats";
             this.label_finalSelectedSeats.Size = new System.Drawing.Size(113, 44);
             this.label_finalSelectedSeats.TabIndex = 4;
@@ -94,7 +96,7 @@
             // 
             this.label_finalSelectedDate.AutoSize = true;
             this.label_finalSelectedDate.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_finalSelectedDate.Location = new System.Drawing.Point(704, 385);
+            this.label_finalSelectedDate.Location = new System.Drawing.Point(695, 380);
             this.label_finalSelectedDate.Name = "label_finalSelectedDate";
             this.label_finalSelectedDate.Size = new System.Drawing.Size(100, 44);
             this.label_finalSelectedDate.TabIndex = 5;
@@ -104,7 +106,7 @@
             // 
             this.label_finalSelectedPrice.AutoSize = true;
             this.label_finalSelectedPrice.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_finalSelectedPrice.Location = new System.Drawing.Point(704, 476);
+            this.label_finalSelectedPrice.Location = new System.Drawing.Point(695, 471);
             this.label_finalSelectedPrice.Name = "label_finalSelectedPrice";
             this.label_finalSelectedPrice.Size = new System.Drawing.Size(101, 44);
             this.label_finalSelectedPrice.TabIndex = 6;
@@ -114,18 +116,19 @@
             // 
             this.button_finalReservation.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button_finalReservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_finalReservation.Location = new System.Drawing.Point(515, 660);
+            this.button_finalReservation.Location = new System.Drawing.Point(506, 655);
             this.button_finalReservation.Name = "button_finalReservation";
             this.button_finalReservation.Size = new System.Drawing.Size(269, 94);
             this.button_finalReservation.TabIndex = 7;
             this.button_finalReservation.Text = "Finalizează rezervarea";
             this.button_finalReservation.UseVisualStyleBackColor = false;
+            this.button_finalReservation.Click += new System.EventHandler(this.button_finalReservation_Click);
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(481, 549);
+            this.label4.Location = new System.Drawing.Point(472, 544);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(217, 44);
             this.label4.TabIndex = 8;
@@ -135,30 +138,40 @@
             // 
             this.label_finalDestination.AutoSize = true;
             this.label_finalDestination.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_finalDestination.Location = new System.Drawing.Point(703, 549);
+            this.label_finalDestination.Location = new System.Drawing.Point(694, 544);
             this.label_finalDestination.Name = "label_finalDestination";
-            this.label_finalDestination.Size = new System.Drawing.Size(233, 66);
+            this.label_finalDestination.Size = new System.Drawing.Size(155, 44);
             this.label_finalDestination.TabIndex = 9;
             this.label_finalDestination.Text = "oriunde";
+            // 
+            // ContentFinalDetails
+            // 
+            this.ContentFinalDetails.Controls.Add(this.label_finalDestination);
+            this.ContentFinalDetails.Controls.Add(this.label4);
+            this.ContentFinalDetails.Controls.Add(this.button_finalReservation);
+            this.ContentFinalDetails.Controls.Add(this.label_finalSelectedPrice);
+            this.ContentFinalDetails.Controls.Add(this.label_finalSelectedDate);
+            this.ContentFinalDetails.Controls.Add(this.label_finalSelectedSeats);
+            this.ContentFinalDetails.Controls.Add(this.label3);
+            this.ContentFinalDetails.Controls.Add(this.label2);
+            this.ContentFinalDetails.Controls.Add(this.label1);
+            this.ContentFinalDetails.Controls.Add(this.label_greeting);
+            this.ContentFinalDetails.Location = new System.Drawing.Point(0, 0);
+            this.ContentFinalDetails.Name = "ContentFinalDetails";
+            this.ContentFinalDetails.Size = new System.Drawing.Size(1359, 895);
+            this.ContentFinalDetails.TabIndex = 10;
+            this.ContentFinalDetails.Paint += new System.Windows.Forms.PaintEventHandler(this.ContentFinalDetails_Paint);
             // 
             // FinalDetailsControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.label_finalDestination);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.button_finalReservation);
-            this.Controls.Add(this.label_finalSelectedPrice);
-            this.Controls.Add(this.label_finalSelectedDate);
-            this.Controls.Add(this.label_finalSelectedSeats);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.label_greeting);
+            this.Controls.Add(this.ContentFinalDetails);
             this.Name = "FinalDetailsControl";
             this.Size = new System.Drawing.Size(1360, 896);
+            this.ContentFinalDetails.ResumeLayout(false);
+            this.ContentFinalDetails.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -174,5 +187,6 @@
         private System.Windows.Forms.Button button_finalReservation;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label_finalDestination;
+        private System.Windows.Forms.Panel ContentFinalDetails;
     }
 }

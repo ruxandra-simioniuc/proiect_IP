@@ -73,6 +73,7 @@
             this.label_Destination_4 = new System.Windows.Forms.Label();
             this.label_Origin_4 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.ContentFlightPick = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel3.SuspendLayout();
@@ -81,6 +82,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel7.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.ContentFlightPick.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -97,7 +99,7 @@
             this.panel1.Controls.Add(this.label_Destination_1);
             this.panel1.Controls.Add(this.label_Origin_1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(49, 46);
+            this.panel1.Location = new System.Drawing.Point(48, 43);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1266, 159);
             this.panel1.TabIndex = 0;
@@ -202,12 +204,13 @@
             // button_return
             // 
             this.button_return.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_return.Location = new System.Drawing.Point(1084, 836);
+            this.button_return.Location = new System.Drawing.Point(1083, 833);
             this.button_return.Name = "button_return";
             this.button_return.Size = new System.Drawing.Size(231, 39);
             this.button_return.TabIndex = 2;
             this.button_return.Text = "Înapoi";
             this.button_return.UseVisualStyleBackColor = true;
+            this.button_return.Click += new System.EventHandler(this.button_return_Click);
             // 
             // panel3
             // 
@@ -223,7 +226,7 @@
             this.panel3.Controls.Add(this.label_Destination_2);
             this.panel3.Controls.Add(this.label_Origin_2);
             this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Location = new System.Drawing.Point(49, 238);
+            this.panel3.Location = new System.Drawing.Point(48, 235);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(1266, 159);
             this.panel3.TabIndex = 3;
@@ -337,7 +340,7 @@
             this.panel5.Controls.Add(this.label_Destination_3);
             this.panel5.Controls.Add(this.label_Origin_3);
             this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Location = new System.Drawing.Point(49, 441);
+            this.panel5.Location = new System.Drawing.Point(48, 438);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1266, 159);
             this.panel5.TabIndex = 4;
@@ -451,7 +454,7 @@
             this.panel7.Controls.Add(this.label_Destination_4);
             this.panel7.Controls.Add(this.label_Origin_4);
             this.panel7.Controls.Add(this.pictureBox4);
-            this.panel7.Location = new System.Drawing.Point(49, 645);
+            this.panel7.Location = new System.Drawing.Point(48, 642);
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(1266, 159);
             this.panel7.TabIndex = 5;
@@ -551,15 +554,23 @@
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
+            // ContentFlightPick
+            // 
+            this.ContentFlightPick.Controls.Add(this.panel7);
+            this.ContentFlightPick.Controls.Add(this.panel5);
+            this.ContentFlightPick.Controls.Add(this.panel3);
+            this.ContentFlightPick.Controls.Add(this.button_return);
+            this.ContentFlightPick.Controls.Add(this.panel1);
+            this.ContentFlightPick.Location = new System.Drawing.Point(1, 3);
+            this.ContentFlightPick.Name = "ContentFlightPick";
+            this.ContentFlightPick.Size = new System.Drawing.Size(1358, 893);
+            this.ContentFlightPick.TabIndex = 6;
+            // 
             // FlightPickControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.panel7);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.panel3);
-            this.Controls.Add(this.button_return);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.ContentFlightPick);
             this.Name = "FlightPickControl";
             this.Size = new System.Drawing.Size(1360, 897);
             this.panel1.ResumeLayout(false);
@@ -574,6 +585,7 @@
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.ContentFlightPick.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -625,5 +637,6 @@
         private System.Windows.Forms.Label label_Destination_4;
         private System.Windows.Forms.Label label_Origin_4;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Panel ContentFlightPick;
     }
 }

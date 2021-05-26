@@ -51,25 +51,12 @@ namespace ProiectIP_interfata
             }
             else {
                 DestinationPickControl flightPicker = new DestinationPickControl();
-                showControl(flightPicker);
+                MainControl.showControl(flightPicker, Content);
             }
 
-            SeatPickControl seatPicker = new SeatPickControl();
-            showControl(seatPicker);
-
         }
 
-        public void showControl(Control control)
-        {
-            Content.Controls.Clear();
 
-            control.Dock = DockStyle.Fill;
-            control.BringToFront();
-            control.Focus();
-
-            Content.Controls.Add(control);
-
-        }
 
 
         private void button_signup_Click(object sender, EventArgs e)

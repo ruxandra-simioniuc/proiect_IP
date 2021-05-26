@@ -27,3 +27,4 @@ D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_i
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CopyComplete
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csprojAssemblyReference.cache

@@ -16,5 +16,11 @@ namespace ProiectIP_interfata
         {
             InitializeComponent();
         }
+
+        private void button_next_Click(object sender, EventArgs e)
+        {
+            FinalDetailsControl finalDetailsControl = new FinalDetailsControl();
+            MainControl.showControl(finalDetailsControl, ContentSeatPick);
+        }
     }
 }
