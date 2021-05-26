@@ -34,8 +34,8 @@ namespace ProiectIP_interfata
 
         private void button_login_Click(object sender, EventArgs e)
         {
-            DestinationPickControl flightPicker = new DestinationPickControl();
-            showControl(flightPicker);
+            SeatPickControl seatPicker = new SeatPickControl();
+            showControl(seatPicker);
         }
 
         public void showControl(Control control)

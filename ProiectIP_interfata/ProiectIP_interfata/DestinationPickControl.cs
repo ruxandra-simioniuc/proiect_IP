@@ -16,5 +16,10 @@ namespace ProiectIP_interfata
         {
             InitializeComponent();
         }
+
+        private void monthCalendar_flightTime_DateChanged(object sender, DateRangeEventArgs e)
+        {
+
+        }
     }
 }
