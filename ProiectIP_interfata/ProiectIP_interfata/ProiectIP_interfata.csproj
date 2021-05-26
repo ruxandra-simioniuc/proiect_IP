@@ -59,6 +59,12 @@
     <Compile Include="DestinationPickControl.Designer.cs">
       <DependentUpon>DestinationPickControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="FinalDetailsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FinalDetailsControl.Designer.cs">
+      <DependentUpon>FinalDetailsControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="FlightPickControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -81,6 +87,9 @@
     </Compile>
     <EmbeddedResource Include="DestinationPickControl.resx">
       <DependentUpon>DestinationPickControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinalDetailsControl.resx">
+      <DependentUpon>FinalDetailsControl.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FlightPickControl.resx">
       <DependentUpon>FlightPickControl.cs</DependentUpon>
