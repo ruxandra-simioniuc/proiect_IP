@@ -561,7 +561,7 @@
             this.Controls.Add(this.button_return);
             this.Controls.Add(this.panel1);
             this.Name = "FlightPickControl";
-            this.Size = new System.Drawing.Size(906, 599);
+            this.Size = new System.Drawing.Size(1360, 897);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
