@@ -31,5 +31,23 @@ namespace ProiectIP_interfata
         {
 
         }
+
+        private void button_login_Click(object sender, EventArgs e)
+        {
+            DestinationPickControl flightPicker = new DestinationPickControl();
+            showControl(flightPicker);
+        }
+
+        public void showControl(Control control)
+        {
+            Content.Controls.Clear();
+
+            control.Dock = DockStyle.Fill;
+            control.BringToFront();
+            control.Focus();
+
+            Content.Controls.Add(control);
+
+        }
     }
 }

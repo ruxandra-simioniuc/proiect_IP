@@ -8,3 +8,14 @@ D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect\ProiectIP_interfata\ProiectIP_inte
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CoreCompileInputs.cache
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe.config
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.pdb
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csprojAssemblyReference.cache
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Form1.resources
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Properties.Resources.resources
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.GenerateResource.cache
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CoreCompileInputs.cache
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.DestinationPickControl.resources
