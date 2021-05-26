@@ -34,11 +34,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.button_findFlight = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.numericUpDown_noPassangers = new System.Windows.Forms.NumericUpDown();
-            this.label5 = new System.Windows.Forms.Label();
             this.monthCalendar_flightTime = new System.Windows.Forms.MonthCalendar();
             this.label6 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_noPassangers)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox_origin
@@ -85,9 +82,9 @@
             // 
             this.button_findFlight.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.button_findFlight.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_findFlight.Location = new System.Drawing.Point(512, 674);
+            this.button_findFlight.Location = new System.Drawing.Point(523, 674);
             this.button_findFlight.Name = "button_findFlight";
-            this.button_findFlight.Size = new System.Drawing.Size(356, 77);
+            this.button_findFlight.Size = new System.Drawing.Size(340, 77);
             this.button_findFlight.TabIndex = 8;
             this.button_findFlight.Text = "Cauta zbor";
             this.button_findFlight.UseVisualStyleBackColor = false;
@@ -101,46 +98,19 @@
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // numericUpDown_noPassangers
-            // 
-            this.numericUpDown_noPassangers.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown_noPassangers.Location = new System.Drawing.Point(772, 312);
-            this.numericUpDown_noPassangers.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numericUpDown_noPassangers.Name = "numericUpDown_noPassangers";
-            this.numericUpDown_noPassangers.Size = new System.Drawing.Size(131, 53);
-            this.numericUpDown_noPassangers.TabIndex = 10;
-            this.numericUpDown_noPassangers.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(764, 256);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(177, 46);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Pasageri";
-            // 
             // monthCalendar_flightTime
             // 
             this.monthCalendar_flightTime.BackColor = System.Drawing.SystemColors.Window;
-            this.monthCalendar_flightTime.Location = new System.Drawing.Point(217, 312);
+            this.monthCalendar_flightTime.Location = new System.Drawing.Point(523, 321);
             this.monthCalendar_flightTime.Name = "monthCalendar_flightTime";
             this.monthCalendar_flightTime.TabIndex = 12;
+            this.monthCalendar_flightTime.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar_flightTime_DateChanged);
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(209, 256);
+            this.label6.Location = new System.Drawing.Point(637, 266);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(104, 46);
             this.label6.TabIndex = 13;
@@ -152,8 +122,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label6);
             this.Controls.Add(this.monthCalendar_flightTime);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.numericUpDown_noPassangers);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_findFlight);
             this.Controls.Add(this.label2);
@@ -162,7 +130,6 @@
             this.Controls.Add(this.comboBox_origin);
             this.Name = "DestinationPickControl";
             this.Size = new System.Drawing.Size(1363, 890);
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown_noPassangers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -176,8 +143,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button button_findFlight;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.NumericUpDown numericUpDown_noPassangers;
-        private System.Windows.Forms.Label label5;
         private System.Windows.Forms.MonthCalendar monthCalendar_flightTime;
         private System.Windows.Forms.Label label6;
     }

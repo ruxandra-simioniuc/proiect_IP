@@ -19,6 +19,7 @@ D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_i
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.DestinationPickControl.resources
+<<<<<<< HEAD
 D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe.config
 D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe
 D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.pdb
@@ -45,3 +46,7 @@ D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug
 D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CopyComplete
 D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 D:\proiect_ip\git_2\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
+=======
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FlightPickControl.resources
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.SeatPickControl.resources
+>>>>>>> 601f5b3b906dd7a787ebb462a85af0a099c0b0e5
