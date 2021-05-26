@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using LogIn;
 using MySql.Data.MySqlClient;
+using LogIn;
 namespace ProiectIP_interfata
 {
     public partial class Form1 : Form
@@ -17,7 +17,7 @@ namespace ProiectIP_interfata
         private UsersManager _usersManager;
         public Form1()
         {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
+            string MyConStr = "Server=localhost;Database=proiect_ip;uid=teodor;pwd=Dismas67!";
 
             _conn = new MySqlConnection(MyConStr);
             _usersManager = new UsersManager(_conn);
@@ -58,7 +58,7 @@ namespace ProiectIP_interfata
 
 
 
-
+        //ADAUGA VERIFICAREA CA CE E IN CASUTE SA NU FIE NULL
         private void button_signup_Click(object sender, EventArgs e)
         {
             string nume = textBox_signup_name.Text;

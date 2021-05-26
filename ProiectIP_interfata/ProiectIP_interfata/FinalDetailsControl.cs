@@ -25,7 +25,7 @@ namespace ProiectIP_interfata
         private void button_finalReservation_Click(object sender, EventArgs e)
         {
             Form1 begin = new Form1();
-            MainControl.showControl(begin.Content, ContentFinalDetails);
+           /// MainControl.showControl(begin.Content, ContentFinalDetails);
         }
     }
 }
