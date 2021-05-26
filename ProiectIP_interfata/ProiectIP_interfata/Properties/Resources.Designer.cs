@@ -83,6 +83,27 @@ namespace ProiectIP_interfata.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blue_airplane_100x100 {
+            get {
+                object obj = ResourceManager.GetObject("blue_airplane_100x100", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_airplane_blue_icon_a5_computer_icons_aircraft_bharath_international_travels_5b533e081d4169_5137129815321820241198 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-airplane-blue-icon-a5-computer-icons-aircraft-bharath-international-trave" +
+                        "ls-5b533e081d4169.5137129815321820241198", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pngegg {
             get {
                 object obj = ResourceManager.GetObject("pngegg", resourceCulture);

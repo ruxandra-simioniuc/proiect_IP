@@ -118,13 +118,19 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="airplane128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\airplane128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="pngegg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pngegg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="airplane50" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\airplane50.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-airplane-blue-icon-a5-computer-icons-aircraft-bharath-international-travels-5b533e081d4169.5137129815321820241198" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-airplane-blue-icon-a5-computer-icons-aircraft-bharath-international-travels-5b533e081d4169.5137129815321820241198.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="airplane128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\airplane128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blue_airplane_100x100" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blue_airplane_100x100.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
