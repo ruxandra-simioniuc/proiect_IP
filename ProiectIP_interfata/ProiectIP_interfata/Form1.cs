@@ -42,6 +42,7 @@ namespace ProiectIP_interfata
         private void button_login_Click(object sender, EventArgs e)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
             string mail = textBox_login_email.Text;
             string parola = textBox_login_password.Text;
             int id = _usersManager.Logare(mail, parola);
@@ -54,6 +55,10 @@ namespace ProiectIP_interfata
                 showControl(flightPicker);
             }
 
+=======
+            SeatPickControl seatPicker = new SeatPickControl();
+            showControl(seatPicker);
+>>>>>>> 601f5b3b906dd7a787ebb462a85af0a099c0b0e5
 =======
             SeatPickControl seatPicker = new SeatPickControl();
             showControl(seatPicker);
@@ -71,6 +76,7 @@ namespace ProiectIP_interfata
             Content.Controls.Add(control);
 
         }
+<<<<<<< HEAD
 
         private void button_signup_Click(object sender, EventArgs e)
         {
@@ -88,5 +94,7 @@ namespace ProiectIP_interfata
                 MessageBox.Show("Parolele nu corespund!");
             }
         }
+=======
+>>>>>>> 601f5b3b906dd7a787ebb462a85af0a099c0b0e5
     }
 }
