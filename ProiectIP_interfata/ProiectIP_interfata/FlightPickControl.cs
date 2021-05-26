@@ -16,5 +16,10 @@ namespace ProiectIP_interfata
         {
             InitializeComponent();
         }
+
+        private void label_infoPrice_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
