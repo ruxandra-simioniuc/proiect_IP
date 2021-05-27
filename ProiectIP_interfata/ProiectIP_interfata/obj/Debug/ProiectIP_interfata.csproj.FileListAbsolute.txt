@@ -64,3 +64,4 @@ D:\ceva\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_i
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.dll
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.pdb
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.UserPickControl.resources
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\LogIn.dll
