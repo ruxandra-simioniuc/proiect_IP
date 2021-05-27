@@ -246,6 +246,7 @@
             this.textBox_login_password.Location = new System.Drawing.Point(291, 379);
             this.textBox_login_password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.textBox_login_password.Name = "textBox_login_password";
+            this.textBox_login_password.PasswordChar = '*';
             this.textBox_login_password.Size = new System.Drawing.Size(255, 35);
             this.textBox_login_password.TabIndex = 24;
             // 
