@@ -41,8 +41,9 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
     </Reference>
-    <Reference Include="SelectareZbor">
-      <HintPath>..\..\SelectareZbor\SelectareZbor\bin\Debug\SelectareZbor.dll</HintPath>
+    <Reference Include="SelectareZbor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\proiect_ip_27_5_517\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\SelectareZbor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

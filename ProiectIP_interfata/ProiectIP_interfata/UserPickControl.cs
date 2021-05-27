@@ -18,7 +18,7 @@ namespace ProiectIP_interfata
         private UsersManager _usersManager;
         public UserPickControl()
         {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
+            string MyConStr = "Server=localhost;Database=proiect_ip;uid=teodor;pwd=Dismas67!";
 
             _conn = new MySqlConnection(MyConStr);
             _usersManager = new UsersManager(_conn);
@@ -36,7 +36,7 @@ namespace ProiectIP_interfata
             }
             else
             {
-                DestinationPickControl flightPicker = new DestinationPickControl();
+                DestinationPickControl flightPicker = new DestinationPickControl(_conn);
                 MainControl.showControl(flightPicker, UserPickContent);
             }
         }

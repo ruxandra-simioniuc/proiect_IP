@@ -20,7 +20,7 @@ namespace SelectareZbor
         {
             _conn.Open();
             List<String> destinatii = new List<String>();
-            string sql = "SELECT destinatie from zboruri where data_zbor=@data;";
+            string sql = "SELECT DISTINCT destinatie from zboruri where data_zbor=@data;";
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = _conn;
             cmd.CommandText = sql;

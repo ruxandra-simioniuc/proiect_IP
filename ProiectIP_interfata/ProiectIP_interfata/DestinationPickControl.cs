@@ -16,11 +16,11 @@ namespace ProiectIP_interfata
         private MySqlConnection _conn;
         private ZboruriManager _zborManager;
         private List<int> zboruri;
-        public DestinationPickControl()
+        public DestinationPickControl(MySqlConnection conn)
         {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
+            
 
-            _conn = new MySqlConnection(MyConStr);
+            _conn = conn;
             _zborManager = new ZboruriManager(_conn);
             DateTime date = DateTime.Now;
             string an = date.Year.ToString();
@@ -62,6 +62,8 @@ namespace ProiectIP_interfata
             //lista ce contine id-urile cu zbourile disponibile (ar trebui sa fie afisata pe aia cu FlightPickControl)
             //trebuie cumva trimisa lista la acel panel(de ex ca parametru)
             zboruri = _zborManager.GetFlights(destinatie, format_data);
+            FlightPickControl flightPickControl = new FlightPickControl(_conn,zboruri);
+            MainControl.showControl(flightPickControl, ContentDestinationPick);
         }
         public List<int> Zboruri
         {
