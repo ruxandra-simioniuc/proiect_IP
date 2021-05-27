@@ -24,8 +24,13 @@ namespace ProiectIP_interfata
 
         private void button_finalReservation_Click(object sender, EventArgs e)
         {
-            Form1 begin = new Form1();
-           /// MainControl.showControl(begin.Content, ContentFinalDetails);
+            UserPickControl userPickControl = new UserPickControl();
+            MainControl.showControl(userPickControl, ContentFinalDetails);
+        }
+
+        private void label_finalSelectedSeats_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -91,6 +91,7 @@
             this.label_finalSelectedSeats.Size = new System.Drawing.Size(113, 44);
             this.label_finalSelectedSeats.TabIndex = 4;
             this.label_finalSelectedSeats.Text = "toate";
+            this.label_finalSelectedSeats.Click += new System.EventHandler(this.label_finalSelectedSeats_Click);
             // 
             // label_finalSelectedDate
             // 

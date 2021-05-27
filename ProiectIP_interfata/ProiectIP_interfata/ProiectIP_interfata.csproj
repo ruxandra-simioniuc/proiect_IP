@@ -89,6 +89,12 @@
     <Compile Include="SeatPickControl.Designer.cs">
       <DependentUpon>SeatPickControl.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserPickControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserPickControl.Designer.cs">
+      <DependentUpon>UserPickControl.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="DestinationPickControl.resx">
       <DependentUpon>DestinationPickControl.cs</DependentUpon>
     </EmbeddedResource>
@@ -113,6 +119,9 @@
     </Compile>
     <EmbeddedResource Include="SeatPickControl.resx">
       <DependentUpon>SeatPickControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPickControl.resx">
+      <DependentUpon>UserPickControl.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

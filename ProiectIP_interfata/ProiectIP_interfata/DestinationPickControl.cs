@@ -18,7 +18,7 @@ namespace ProiectIP_interfata
         private List<int> zboruri;
         public DestinationPickControl()
         {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=teodor;pwd=Dismas67!";
+            string MyConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
 
             _conn = new MySqlConnection(MyConStr);
             _zborManager = new ZboruriManager(_conn);
