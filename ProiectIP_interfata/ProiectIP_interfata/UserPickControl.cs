@@ -18,7 +18,7 @@ namespace ProiectIP_interfata
         private UsersManager _usersManager;
         public UserPickControl()
         {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=teodor;pwd=Dismas67!";
+            string MyConStr = "Server=localhost;Database=proiect_ip;uid=claudiu;pwd=pass_1234";
 
             _conn = new MySqlConnection(MyConStr);
             _usersManager = new UsersManager(_conn);

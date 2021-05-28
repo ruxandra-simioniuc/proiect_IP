@@ -10,8 +10,11 @@ using System.Windows.Forms;
 using System.Security.Cryptography;
 using MySql.Data.MySqlClient;
 using SelectareZbor;
+using System.IO;
+
 namespace ProiectIP_interfata
 {
+
     public partial class FlightPickControl : UserControl
     {
         private MySqlConnection _conn;
@@ -44,6 +47,13 @@ namespace ProiectIP_interfata
                 duration = _duration;
                 price = _price;
 
+            }
+            public int GetPret
+            {
+                get
+                {
+                    return Convert.ToInt32(price.Text);
+                }
             }
 
             public void assignText(string _origin, string _destination, string _departure, string _arrival, string _duration, string _price)
@@ -95,18 +105,25 @@ namespace ProiectIP_interfata
 
         private void button_reservation_1_Click(object sender, EventArgs e)
         {
-            int index_zbor;
-            for(int i=0;i<_buttons.Length;++i)
+            int indexZbor = 0;
+            int pretZbor = 0;
+
+            for (int i=0;i<_buttons.Length;++i)
             {
                 if(sender==_buttons[i])
                 {
-                    index_zbor = _zboruri[i];
-                    MessageBox.Show(index_zbor.ToString());
+                    indexZbor = _zboruri[i];
+                    pretZbor = _fc[i].GetPret;
+                    MessageBox.Show(indexZbor.ToString());
+
+                    MessageBox.Show(pretZbor.ToString());
                 }
             }
             //trebuie sa vad al catelea buton din _buttons[] a fost apasat=> index i
             //_zboruri[i] voi avea id_zbor al zborului ales!!
             //=> deschid fisierul ala unde am toate locurile ocupate pt fiecare zbor
+           // WriteToFileSeatsArgs(indexZbor, pretZbor);
+
             SeatPickControl seatPickControl = new SeatPickControl();
             MainControl.showControl(seatPickControl, ContentFlightPick);
         }
@@ -115,6 +132,22 @@ namespace ProiectIP_interfata
         {
             DestinationPickControl destinationPickControl = new DestinationPickControl(_conn);
             MainControl.showControl(destinationPickControl, ContentFlightPick);
+        }
+
+        private void label_Price_1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void WriteToFileSeatsArgs(int indexZbor, int pretZbor)
+        {
+            string someText = indexZbor.ToString() + " " + pretZbor.ToString();
+            string filePath = @"..\..\Resources\SeatPickArgs.txt";
+
+            File.WriteAllText(filePath, someText);
+
+            string readText = File.ReadAllText(filePath);
+            Console.WriteLine(readText);
         }
     }
 }

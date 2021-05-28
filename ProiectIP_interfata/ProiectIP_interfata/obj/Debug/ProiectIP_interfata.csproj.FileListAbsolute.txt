@@ -97,3 +97,36 @@ D:\proiect_ip_interfata\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\D
 D:\proiect_ip_interfata\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.pdb
 D:\proiect_ip_interfata\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CopyComplete
 D:\proiect_ip_interfata\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csprojAssemblyReference.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe.config
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.pdb
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\LogIn.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\MySql.Data.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Google.Protobuf.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Zstandard.Net.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Renci.SshNet.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Buffers.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Memory.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\LogIn.pdb
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\MySql.Data.xml
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.pdb
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csprojAssemblyReference.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.DestinationPickControl.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FinalDetailsControl.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FlightPickControl.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Form1.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Properties.Resources.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.SeatPickControl.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.UserPickControl.resources
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.GenerateResource.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CoreCompileInputs.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CopyComplete
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
