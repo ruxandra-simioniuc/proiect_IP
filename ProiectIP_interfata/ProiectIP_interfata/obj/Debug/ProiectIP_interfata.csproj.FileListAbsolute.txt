@@ -129,3 +129,37 @@ C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CopyComplete
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Varianta buna\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe.config
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.exe
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\ProiectIP_interfata.pdb
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\LogIn.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\MySql.Data.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Google.Protobuf.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Zstandard.Net.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\BouncyCastle.Crypto.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\Ubiety.Dns.Core.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Memory.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Buffers.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\K4os.Compression.LZ4.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\K4os.Hash.xxHash.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\System.Numerics.Vectors.dll
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\LogIn.pdb
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\MySql.Data.xml
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.pdb
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csprojAssemblyReference.cache
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe.config
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.DestinationPickControl.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FinalDetailsControl.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FlightPickControl.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Form1.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Properties.Resources.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.SeatPickControl.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.UserPickControl.resources
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.GenerateResource.cache
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CoreCompileInputs.cache
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.csproj.CopyComplete
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
+D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.dll

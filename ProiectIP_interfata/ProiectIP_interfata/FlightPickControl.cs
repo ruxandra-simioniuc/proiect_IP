@@ -62,6 +62,12 @@ namespace ProiectIP_interfata
                 destination.Text = _destination;
                 departure_time.Text = _departure;
                 arrival_time.Text = _arrival;
+                string[] aux = _duration.Split(':');
+                if(int.Parse(aux[1]) < 10)
+                {
+                    aux[1] = "0" + aux[1];
+                    _duration = aux[0] + ":" + aux[1];
+                }
                 duration.Text = _duration;
                 price.Text = _price;
             }
@@ -119,12 +125,13 @@ namespace ProiectIP_interfata
                     MessageBox.Show(pretZbor.ToString());
                 }
             }
+
             //trebuie sa vad al catelea buton din _buttons[] a fost apasat=> index i
             //_zboruri[i] voi avea id_zbor al zborului ales!!
             //=> deschid fisierul ala unde am toate locurile ocupate pt fiecare zbor
            // WriteToFileSeatsArgs(indexZbor, pretZbor);
 
-            SeatPickControl seatPickControl = new SeatPickControl();
+            SeatPickControl seatPickControl = new SeatPickControl(indexZbor, pretZbor, _conn);
             MainControl.showControl(seatPickControl, ContentFlightPick);
         }
 

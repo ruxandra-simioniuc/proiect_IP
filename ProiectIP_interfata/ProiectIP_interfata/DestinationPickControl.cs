@@ -53,17 +53,25 @@ namespace ProiectIP_interfata
 
         private void button_findFlight_Click(object sender, EventArgs e)
         {
-            string data_aleasa = monthCalendar_flightTime.SelectionRange.Start.ToString();
+            try
+            {
+                string data_aleasa = monthCalendar_flightTime.SelectionRange.Start.ToString();
 
-            data_aleasa = data_aleasa.Split(' ')[0];
-            string[] bucati = data_aleasa.Split('/');
-            string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
-            string destinatie = comboBox_destination.SelectedValue.ToString();
-            //lista ce contine id-urile cu zbourile disponibile (ar trebui sa fie afisata pe aia cu FlightPickControl)
-            //trebuie cumva trimisa lista la acel panel(de ex ca parametru)
-            zboruri = _zborManager.GetFlights(destinatie, format_data);
-            FlightPickControl flightPickControl = new FlightPickControl(_conn,zboruri);
-            MainControl.showControl(flightPickControl, ContentDestinationPick);
+                data_aleasa = data_aleasa.Split(' ')[0];
+                string[] bucati = data_aleasa.Split('/');
+                string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
+                string destinatie = comboBox_destination.SelectedValue.ToString();
+                //lista ce contine id-urile cu zbourile disponibile (ar trebui sa fie afisata pe aia cu FlightPickControl)
+                //trebuie cumva trimisa lista la acel panel(de ex ca parametru)
+                zboruri = _zborManager.GetFlights(destinatie, format_data);
+                FlightPickControl flightPickControl = new FlightPickControl(_conn, zboruri);
+                MainControl.showControl(flightPickControl, ContentDestinationPick);
+            }
+            catch(Exception)
+            {
+                MessageBox.Show("Trebuie selectata o destinatie valida!");
+            }
+           
         }
         public List<int> Zboruri
         {

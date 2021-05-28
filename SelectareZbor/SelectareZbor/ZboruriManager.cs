@@ -62,5 +62,69 @@ namespace SelectareZbor
             return flights;
 
         }
+
+        public string GetData(string id)
+        {
+            _conn.Open();
+            string sql = "SELECT data_zbor from zboruri where id_zbor=@id;";
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = _conn;
+            cmd.CommandText = sql;
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Prepare();
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            string raspuns = "";
+            if (rdr.Read())
+                raspuns = rdr.GetString(0);
+            cmd.Dispose();
+            _conn.Close();
+            return raspuns;
+        }
+
+        public string GetDestinatie(string id)
+        {
+            _conn.Open();
+            string sql = "SELECT destinatie from zboruri where id_zbor=@id;";
+            MySqlCommand cmd = new MySqlCommand();
+            cmd.Connection = _conn;
+            cmd.CommandText = sql;
+            cmd.Parameters.AddWithValue("@id", id);
+            cmd.Prepare();
+            MySqlDataReader rdr = cmd.ExecuteReader();
+            string raspuns = "";
+            if (rdr.Read())
+                raspuns = rdr.GetString(0);
+            cmd.Dispose();
+            _conn.Close();
+            return raspuns;
+        }
+
+        public List<Info_Zbor> GetInfo(List<int> id)
+        {
+
+            List<Info_Zbor> informatii = new List<Info_Zbor>();
+            for (int i = 0; i < id.Count; ++i)
+            {
+                _conn.Open();
+                string sql = "SELECT ora_plecarii, ora_sosirii, pret, destinatie  from zboruri where id_zbor=@id;";
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = _conn;
+                cmd.CommandText = sql;
+                cmd.Parameters.AddWithValue("@id", id[i]);
+                cmd.Prepare();
+                MySqlDataReader rdr = cmd.ExecuteReader();
+                while (rdr.Read())
+                {
+                    informatii.Add(new Info_Zbor(rdr.GetString(0), rdr.GetString(1), rdr.GetInt32(2), "Iasi", rdr.GetString(3)));
+                }
+                cmd.Dispose();
+                _conn.Close();
+
+            }
+
+
+            return informatii;
+        }
+
     }
 }

@@ -18,7 +18,7 @@ namespace ProiectIP_interfata
         private UsersManager _usersManager;
         public UserPickControl()
         {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
+            string MyConStr = "Server=localhost;Database=proiect_ip;uid=matei;pwd=pass";
 
             _conn = new MySqlConnection(MyConStr);
             _usersManager = new UsersManager(_conn);
@@ -54,7 +54,7 @@ namespace ProiectIP_interfata
             }
             else
             {
-                MessageBox.Show("Parolele nu corespund!");
+                MessageBox.Show("Eroare!");
             }
         }
     }

@@ -17,6 +17,8 @@ namespace LogIn
         }
         public int Logare(string mail, string parola)
         {
+            if (mail == "" || parola == "")
+                return -1;
             _conn.Open();
 
             string parola_encrypt = HashString(parola);
@@ -55,7 +57,7 @@ namespace LogIn
             command.Connection = _conn;
 
 
-            if (parola != parola_2)
+            if (parola != parola_2 || nume == "" || prenume == "" || mail == "" || parola == "" || parola_2 == "")
             {
                 command.Dispose();
                 _conn.Close();

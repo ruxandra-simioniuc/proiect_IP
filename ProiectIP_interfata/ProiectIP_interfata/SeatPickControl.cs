@@ -8,30 +8,51 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
-
+using SelectareZbor;
+using MySql.Data.MySqlClient;
 namespace ProiectIP_interfata
 {
     public partial class SeatPickControl : UserControl
     {
-        private int _indexZbor = 3;
-        private int _pretZbor = 111;
-        string seatingPlan = "3 D2 F19 F18 C18 F19 C12 A14 D16 B19 F6";
+        private int _indexZbor;
+        private int _pretZbor ;
+        string seatingPlan = "";
         string[] takenSeats;
         int[] seatsByClass = { 0, 0, 0 }; // first, business, economy
         int economyClassPrice;
         int businessClassPrice;
         int firstClassPrice;
+        ZboruriManager zboruriManager;
+        MySqlConnection _conn;
 
-        public SeatPickControl()
+        public SeatPickControl(int indexZbor, int pretZbor , MySqlConnection conn)
         {
+            _conn = conn;
+            _indexZbor = indexZbor;
+            _pretZbor = pretZbor;
             InitializeComponent();
 
-           
+            // ReadSeatPickArgs();
+
+            ReadSeatingPlanFromBD();
+
+            OccupySeats();
+
+            UpdatePriceLabels();
+
         }
 
         private void button_next_Click(object sender, EventArgs e)
         {
-            FinalDetailsControl finalDetailsControl = new FinalDetailsControl();
+            zboruriManager = new ZboruriManager(_conn);
+            string numarLocuri = label_selectedSeats.Text;
+            string pret = label_seatPrice.Text;
+            string destinatie = zboruriManager.GetDestinatie(_indexZbor.ToString());
+            string data = zboruriManager.GetData(_indexZbor.ToString());
+
+
+
+            FinalDetailsControl finalDetailsControl = new FinalDetailsControl(numarLocuri, pret, destinatie, data);
             MainControl.showControl(finalDetailsControl, ContentSeatPick);
         }
 
@@ -242,6 +263,11 @@ namespace ProiectIP_interfata
             OccupySeats();
 
             UpdatePriceLabels();
+        }
+
+        private void label_selectedSeats_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

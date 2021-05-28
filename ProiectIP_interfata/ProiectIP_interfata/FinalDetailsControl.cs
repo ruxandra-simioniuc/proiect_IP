@@ -12,9 +12,15 @@ namespace ProiectIP_interfata
 {
     public partial class FinalDetailsControl : UserControl
     {
-        public FinalDetailsControl()
+        public FinalDetailsControl(string numarLocuri, string pret, string destinatie, string data)
         {
             InitializeComponent();
+
+            label_finalSelectedSeats.Text = numarLocuri;
+            label_finalSelectedPrice.Text = pret;
+            label_finalDestination.Text = destinatie;
+            label_finalSelectedDate.Text = data;
+
         }
 
         private void ContentFinalDetails_Paint(object sender, PaintEventArgs e)

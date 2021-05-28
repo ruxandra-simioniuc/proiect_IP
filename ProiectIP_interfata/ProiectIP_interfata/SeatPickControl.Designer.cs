@@ -180,7 +180,6 @@
             this.label_selectedSeats = new System.Windows.Forms.Label();
             this.button_next = new System.Windows.Forms.Button();
             this.ContentSeatPick = new System.Windows.Forms.Panel();
-            this.buttonTest = new System.Windows.Forms.Button();
             this.labelOccupied = new System.Windows.Forms.Label();
             this.labelSelected = new System.Windows.Forms.Label();
             this.buttonOccupied = new System.Windows.Forms.Button();
@@ -1690,6 +1689,7 @@
             this.label_selectedSeats.Size = new System.Drawing.Size(109, 46);
             this.label_selectedSeats.TabIndex = 193;
             this.label_selectedSeats.Text = "toate";
+            this.label_selectedSeats.Click += new System.EventHandler(this.label_selectedSeats_Click);
             // 
             // button_next
             // 
@@ -1705,7 +1705,6 @@
             // 
             // ContentSeatPick
             // 
-            this.ContentSeatPick.Controls.Add(this.buttonTest);
             this.ContentSeatPick.Controls.Add(this.labelOccupied);
             this.ContentSeatPick.Controls.Add(this.labelSelected);
             this.ContentSeatPick.Controls.Add(this.buttonOccupied);
@@ -1869,16 +1868,6 @@
             this.ContentSeatPick.Size = new System.Drawing.Size(1372, 900);
             this.ContentSeatPick.TabIndex = 195;
             this.ContentSeatPick.Paint += new System.Windows.Forms.PaintEventHandler(this.ContentSeatPick_Paint);
-            // 
-            // buttonTest
-            // 
-            this.buttonTest.BackColor = System.Drawing.Color.DarkRed;
-            this.buttonTest.Location = new System.Drawing.Point(144, 542);
-            this.buttonTest.Name = "buttonTest";
-            this.buttonTest.Size = new System.Drawing.Size(33, 32);
-            this.buttonTest.TabIndex = 202;
-            this.buttonTest.UseVisualStyleBackColor = false;
-            this.buttonTest.Click += new System.EventHandler(this.buttonTest_Click);
             // 
             // labelOccupied
             // 
@@ -2121,6 +2110,5 @@
         private System.Windows.Forms.Label labelEconomyClass;
         private System.Windows.Forms.Label labelBusinessClass;
         private System.Windows.Forms.Label labelFirstClass;
-        private System.Windows.Forms.Button buttonTest;
     }
 }
