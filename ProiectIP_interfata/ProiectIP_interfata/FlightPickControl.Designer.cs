@@ -99,59 +99,53 @@
             this.panel1.Controls.Add(this.label_Destination_1);
             this.panel1.Controls.Add(this.label_Origin_1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(32, 28);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Location = new System.Drawing.Point(48, 43);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(845, 104);
+            this.panel1.Size = new System.Drawing.Size(1266, 159);
             this.panel1.TabIndex = 0;
             // 
             // label_duration_1
             // 
             this.label_duration_1.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_duration_1.Location = new System.Drawing.Point(216, 6);
-            this.label_duration_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_duration_1.Location = new System.Drawing.Point(324, 9);
             this.label_duration_1.Name = "label_duration_1";
-            this.label_duration_1.Size = new System.Drawing.Size(95, 31);
+            this.label_duration_1.Size = new System.Drawing.Size(142, 48);
             this.label_duration_1.TabIndex = 9;
             this.label_duration_1.Text = "1:45 h";
             // 
             // label_arrivalTime_1
             // 
             this.label_arrivalTime_1.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_arrivalTime_1.Location = new System.Drawing.Point(362, 56);
-            this.label_arrivalTime_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_arrivalTime_1.Location = new System.Drawing.Point(543, 86);
             this.label_arrivalTime_1.Name = "label_arrivalTime_1";
-            this.label_arrivalTime_1.Size = new System.Drawing.Size(89, 31);
+            this.label_arrivalTime_1.Size = new System.Drawing.Size(134, 48);
             this.label_arrivalTime_1.TabIndex = 8;
             this.label_arrivalTime_1.Text = "12:30";
             // 
             // label_departureTime_1
             // 
             this.label_departureTime_1.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_departureTime_1.Location = new System.Drawing.Point(104, 56);
-            this.label_departureTime_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_departureTime_1.Location = new System.Drawing.Point(156, 86);
             this.label_departureTime_1.Name = "label_departureTime_1";
-            this.label_departureTime_1.Size = new System.Drawing.Size(89, 21);
+            this.label_departureTime_1.Size = new System.Drawing.Size(134, 32);
             this.label_departureTime_1.TabIndex = 7;
             this.label_departureTime_1.Text = "10:45";
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panel2.Location = new System.Drawing.Point(221, 40);
-            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel2.Location = new System.Drawing.Point(332, 62);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(85, 3);
+            this.panel2.Size = new System.Drawing.Size(128, 5);
             this.panel2.TabIndex = 6;
             // 
             // button_reservation_1
             // 
             this.button_reservation_1.BackColor = System.Drawing.Color.Turquoise;
-            this.button_reservation_1.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_reservation_1.Location = new System.Drawing.Point(695, 18);
-            this.button_reservation_1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_reservation_1.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reservation_1.Location = new System.Drawing.Point(1042, 28);
             this.button_reservation_1.Name = "button_reservation_1";
-            this.button_reservation_1.Size = new System.Drawing.Size(129, 63);
+            this.button_reservation_1.Size = new System.Drawing.Size(194, 97);
             this.button_reservation_1.TabIndex = 5;
             this.button_reservation_1.Text = "Rezervă";
             this.button_reservation_1.UseVisualStyleBackColor = false;
@@ -161,10 +155,9 @@
             // 
             this.label_Price_1.AutoSize = true;
             this.label_Price_1.Font = new System.Drawing.Font("Verdana", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Price_1.Location = new System.Drawing.Point(554, 25);
-            this.label_Price_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Price_1.Location = new System.Drawing.Point(831, 38);
             this.label_Price_1.Name = "label_Price_1";
-            this.label_Price_1.Size = new System.Drawing.Size(120, 48);
+            this.label_Price_1.Size = new System.Drawing.Size(184, 73);
             this.label_Price_1.TabIndex = 4;
             this.label_Price_1.Text = "100$";
             this.label_Price_1.Click += new System.EventHandler(this.label_Price_1_Click);
@@ -173,10 +166,9 @@
             // 
             this.label_infoPrice1.AutoSize = true;
             this.label_infoPrice1.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_infoPrice1.Location = new System.Drawing.Point(513, 50);
-            this.label_infoPrice1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_infoPrice1.Location = new System.Drawing.Point(755, 75);
             this.label_infoPrice1.Name = "label_infoPrice1";
-            this.label_infoPrice1.Size = new System.Drawing.Size(49, 18);
+            this.label_infoPrice1.Size = new System.Drawing.Size(70, 29);
             this.label_infoPrice1.TabIndex = 3;
             this.label_infoPrice1.Text = "de la";
             this.label_infoPrice1.Click += new System.EventHandler(this.label_infoPrice_Click);
@@ -185,10 +177,9 @@
             // 
             this.label_Destination_1.AutoSize = true;
             this.label_Destination_1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Destination_1.Location = new System.Drawing.Point(319, 18);
-            this.label_Destination_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Destination_1.Location = new System.Drawing.Point(478, 28);
             this.label_Destination_1.Name = "label_Destination_1";
-            this.label_Destination_1.Size = new System.Drawing.Size(180, 38);
+            this.label_Destination_1.Size = new System.Drawing.Size(268, 59);
             this.label_Destination_1.TabIndex = 2;
             this.label_Destination_1.Text = "Destinatie";
             // 
@@ -196,30 +187,27 @@
             // 
             this.label_Origin_1.AutoSize = true;
             this.label_Origin_1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_1.Location = new System.Drawing.Point(84, 16);
-            this.label_Origin_1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Origin_1.Location = new System.Drawing.Point(126, 25);
             this.label_Origin_1.Name = "label_Origin_1";
-            this.label_Origin_1.Size = new System.Drawing.Size(133, 38);
+            this.label_Origin_1.Size = new System.Drawing.Size(199, 59);
             this.label_Origin_1.TabIndex = 1;
             this.label_Origin_1.Text = "Plecare";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox1.Location = new System.Drawing.Point(9, 18);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 28);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 70);
+            this.pictureBox1.Size = new System.Drawing.Size(104, 108);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // button_return
             // 
             this.button_return.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_return.Location = new System.Drawing.Point(722, 541);
-            this.button_return.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_return.Location = new System.Drawing.Point(1083, 832);
             this.button_return.Name = "button_return";
-            this.button_return.Size = new System.Drawing.Size(154, 25);
+            this.button_return.Size = new System.Drawing.Size(231, 38);
             this.button_return.TabIndex = 2;
             this.button_return.Text = "Înapoi";
             this.button_return.UseVisualStyleBackColor = true;
@@ -239,59 +227,53 @@
             this.panel3.Controls.Add(this.label_Destination_2);
             this.panel3.Controls.Add(this.label_Origin_2);
             this.panel3.Controls.Add(this.pictureBox2);
-            this.panel3.Location = new System.Drawing.Point(32, 153);
-            this.panel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel3.Location = new System.Drawing.Point(48, 235);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(845, 104);
+            this.panel3.Size = new System.Drawing.Size(1266, 159);
             this.panel3.TabIndex = 3;
             // 
             // label_duration_2
             // 
             this.label_duration_2.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_duration_2.Location = new System.Drawing.Point(216, 6);
-            this.label_duration_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_duration_2.Location = new System.Drawing.Point(324, 9);
             this.label_duration_2.Name = "label_duration_2";
-            this.label_duration_2.Size = new System.Drawing.Size(95, 31);
+            this.label_duration_2.Size = new System.Drawing.Size(142, 48);
             this.label_duration_2.TabIndex = 9;
             this.label_duration_2.Text = "1:45 h";
             // 
             // label_arrivalTime_2
             // 
             this.label_arrivalTime_2.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_arrivalTime_2.Location = new System.Drawing.Point(362, 56);
-            this.label_arrivalTime_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_arrivalTime_2.Location = new System.Drawing.Point(543, 86);
             this.label_arrivalTime_2.Name = "label_arrivalTime_2";
-            this.label_arrivalTime_2.Size = new System.Drawing.Size(89, 31);
+            this.label_arrivalTime_2.Size = new System.Drawing.Size(134, 48);
             this.label_arrivalTime_2.TabIndex = 8;
             this.label_arrivalTime_2.Text = "12:30";
             // 
             // label_departureTime_2
             // 
             this.label_departureTime_2.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_departureTime_2.Location = new System.Drawing.Point(104, 56);
-            this.label_departureTime_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_departureTime_2.Location = new System.Drawing.Point(156, 86);
             this.label_departureTime_2.Name = "label_departureTime_2";
-            this.label_departureTime_2.Size = new System.Drawing.Size(89, 31);
+            this.label_departureTime_2.Size = new System.Drawing.Size(134, 48);
             this.label_departureTime_2.TabIndex = 7;
             this.label_departureTime_2.Text = "10:45";
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panel4.Location = new System.Drawing.Point(221, 40);
-            this.panel4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel4.Location = new System.Drawing.Point(332, 62);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(85, 3);
+            this.panel4.Size = new System.Drawing.Size(128, 5);
             this.panel4.TabIndex = 6;
             // 
             // button_reservation_2
             // 
             this.button_reservation_2.BackColor = System.Drawing.Color.Turquoise;
-            this.button_reservation_2.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_reservation_2.Location = new System.Drawing.Point(695, 18);
-            this.button_reservation_2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_reservation_2.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reservation_2.Location = new System.Drawing.Point(1042, 28);
             this.button_reservation_2.Name = "button_reservation_2";
-            this.button_reservation_2.Size = new System.Drawing.Size(129, 63);
+            this.button_reservation_2.Size = new System.Drawing.Size(194, 97);
             this.button_reservation_2.TabIndex = 5;
             this.button_reservation_2.Text = "Rezervă";
             this.button_reservation_2.UseVisualStyleBackColor = false;
@@ -301,10 +283,9 @@
             // 
             this.label_Price_2.AutoSize = true;
             this.label_Price_2.Font = new System.Drawing.Font("Verdana", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Price_2.Location = new System.Drawing.Point(554, 25);
-            this.label_Price_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Price_2.Location = new System.Drawing.Point(831, 38);
             this.label_Price_2.Name = "label_Price_2";
-            this.label_Price_2.Size = new System.Drawing.Size(120, 48);
+            this.label_Price_2.Size = new System.Drawing.Size(184, 73);
             this.label_Price_2.TabIndex = 4;
             this.label_Price_2.Text = "100$";
             // 
@@ -312,10 +293,9 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(513, 50);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Location = new System.Drawing.Point(755, 75);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(49, 18);
+            this.label5.Size = new System.Drawing.Size(70, 29);
             this.label5.TabIndex = 3;
             this.label5.Text = "de la";
             // 
@@ -323,10 +303,9 @@
             // 
             this.label_Destination_2.AutoSize = true;
             this.label_Destination_2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Destination_2.Location = new System.Drawing.Point(319, 18);
-            this.label_Destination_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Destination_2.Location = new System.Drawing.Point(478, 28);
             this.label_Destination_2.Name = "label_Destination_2";
-            this.label_Destination_2.Size = new System.Drawing.Size(180, 38);
+            this.label_Destination_2.Size = new System.Drawing.Size(268, 59);
             this.label_Destination_2.TabIndex = 2;
             this.label_Destination_2.Text = "Destinatie";
             // 
@@ -334,20 +313,18 @@
             // 
             this.label_Origin_2.AutoSize = true;
             this.label_Origin_2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_2.Location = new System.Drawing.Point(84, 16);
-            this.label_Origin_2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Origin_2.Location = new System.Drawing.Point(126, 25);
             this.label_Origin_2.Name = "label_Origin_2";
-            this.label_Origin_2.Size = new System.Drawing.Size(133, 38);
+            this.label_Origin_2.Size = new System.Drawing.Size(199, 59);
             this.label_Origin_2.TabIndex = 1;
             this.label_Origin_2.Text = "Plecare";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox2.Location = new System.Drawing.Point(9, 18);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(14, 28);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(69, 70);
+            this.pictureBox2.Size = new System.Drawing.Size(104, 108);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -365,59 +342,53 @@
             this.panel5.Controls.Add(this.label_Destination_3);
             this.panel5.Controls.Add(this.label_Origin_3);
             this.panel5.Controls.Add(this.pictureBox3);
-            this.panel5.Location = new System.Drawing.Point(32, 285);
-            this.panel5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel5.Location = new System.Drawing.Point(48, 438);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(845, 104);
+            this.panel5.Size = new System.Drawing.Size(1266, 159);
             this.panel5.TabIndex = 4;
             // 
             // label_duration_3
             // 
             this.label_duration_3.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_duration_3.Location = new System.Drawing.Point(216, 6);
-            this.label_duration_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_duration_3.Location = new System.Drawing.Point(324, 9);
             this.label_duration_3.Name = "label_duration_3";
-            this.label_duration_3.Size = new System.Drawing.Size(95, 31);
+            this.label_duration_3.Size = new System.Drawing.Size(142, 48);
             this.label_duration_3.TabIndex = 9;
             this.label_duration_3.Text = "1:45 h";
             // 
             // label_arrivalTime_3
             // 
             this.label_arrivalTime_3.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_arrivalTime_3.Location = new System.Drawing.Point(362, 56);
-            this.label_arrivalTime_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_arrivalTime_3.Location = new System.Drawing.Point(543, 86);
             this.label_arrivalTime_3.Name = "label_arrivalTime_3";
-            this.label_arrivalTime_3.Size = new System.Drawing.Size(89, 31);
+            this.label_arrivalTime_3.Size = new System.Drawing.Size(134, 48);
             this.label_arrivalTime_3.TabIndex = 8;
             this.label_arrivalTime_3.Text = "12:30";
             // 
             // label_departureTime_3
             // 
             this.label_departureTime_3.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_departureTime_3.Location = new System.Drawing.Point(104, 56);
-            this.label_departureTime_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_departureTime_3.Location = new System.Drawing.Point(156, 86);
             this.label_departureTime_3.Name = "label_departureTime_3";
-            this.label_departureTime_3.Size = new System.Drawing.Size(89, 31);
+            this.label_departureTime_3.Size = new System.Drawing.Size(134, 48);
             this.label_departureTime_3.TabIndex = 7;
             this.label_departureTime_3.Text = "10:45";
             // 
             // panel6
             // 
             this.panel6.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panel6.Location = new System.Drawing.Point(221, 40);
-            this.panel6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel6.Location = new System.Drawing.Point(332, 62);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(85, 3);
+            this.panel6.Size = new System.Drawing.Size(128, 5);
             this.panel6.TabIndex = 6;
             // 
             // button_reservation_3
             // 
             this.button_reservation_3.BackColor = System.Drawing.Color.Turquoise;
-            this.button_reservation_3.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_reservation_3.Location = new System.Drawing.Point(695, 18);
-            this.button_reservation_3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_reservation_3.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reservation_3.Location = new System.Drawing.Point(1042, 28);
             this.button_reservation_3.Name = "button_reservation_3";
-            this.button_reservation_3.Size = new System.Drawing.Size(129, 63);
+            this.button_reservation_3.Size = new System.Drawing.Size(194, 97);
             this.button_reservation_3.TabIndex = 5;
             this.button_reservation_3.Text = "Rezervă";
             this.button_reservation_3.UseVisualStyleBackColor = false;
@@ -427,10 +398,9 @@
             // 
             this.label_Price_3.AutoSize = true;
             this.label_Price_3.Font = new System.Drawing.Font("Verdana", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Price_3.Location = new System.Drawing.Point(554, 25);
-            this.label_Price_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Price_3.Location = new System.Drawing.Point(831, 38);
             this.label_Price_3.Name = "label_Price_3";
-            this.label_Price_3.Size = new System.Drawing.Size(120, 48);
+            this.label_Price_3.Size = new System.Drawing.Size(184, 73);
             this.label_Price_3.TabIndex = 4;
             this.label_Price_3.Text = "100$";
             // 
@@ -438,10 +408,9 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(513, 50);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Location = new System.Drawing.Point(755, 75);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(49, 18);
+            this.label12.Size = new System.Drawing.Size(70, 29);
             this.label12.TabIndex = 3;
             this.label12.Text = "de la";
             // 
@@ -449,10 +418,9 @@
             // 
             this.label_Destination_3.AutoSize = true;
             this.label_Destination_3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Destination_3.Location = new System.Drawing.Point(319, 18);
-            this.label_Destination_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Destination_3.Location = new System.Drawing.Point(478, 28);
             this.label_Destination_3.Name = "label_Destination_3";
-            this.label_Destination_3.Size = new System.Drawing.Size(180, 38);
+            this.label_Destination_3.Size = new System.Drawing.Size(268, 59);
             this.label_Destination_3.TabIndex = 2;
             this.label_Destination_3.Text = "Destinatie";
             // 
@@ -460,20 +428,18 @@
             // 
             this.label_Origin_3.AutoSize = true;
             this.label_Origin_3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_3.Location = new System.Drawing.Point(84, 16);
-            this.label_Origin_3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Origin_3.Location = new System.Drawing.Point(126, 25);
             this.label_Origin_3.Name = "label_Origin_3";
-            this.label_Origin_3.Size = new System.Drawing.Size(133, 38);
+            this.label_Origin_3.Size = new System.Drawing.Size(199, 59);
             this.label_Origin_3.TabIndex = 1;
             this.label_Origin_3.Text = "Plecare";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox3.Location = new System.Drawing.Point(9, 18);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(14, 28);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(69, 70);
+            this.pictureBox3.Size = new System.Drawing.Size(104, 108);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
@@ -491,59 +457,53 @@
             this.panel7.Controls.Add(this.label_Destination_4);
             this.panel7.Controls.Add(this.label_Origin_4);
             this.panel7.Controls.Add(this.pictureBox4);
-            this.panel7.Location = new System.Drawing.Point(32, 417);
-            this.panel7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel7.Location = new System.Drawing.Point(48, 642);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(845, 104);
+            this.panel7.Size = new System.Drawing.Size(1266, 159);
             this.panel7.TabIndex = 5;
             // 
             // label_duration_4
             // 
             this.label_duration_4.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_duration_4.Location = new System.Drawing.Point(216, 6);
-            this.label_duration_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_duration_4.Location = new System.Drawing.Point(324, 9);
             this.label_duration_4.Name = "label_duration_4";
-            this.label_duration_4.Size = new System.Drawing.Size(95, 31);
+            this.label_duration_4.Size = new System.Drawing.Size(142, 48);
             this.label_duration_4.TabIndex = 9;
             this.label_duration_4.Text = "1:45 h";
             // 
             // label_arrivalTime_4
             // 
             this.label_arrivalTime_4.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_arrivalTime_4.Location = new System.Drawing.Point(362, 56);
-            this.label_arrivalTime_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_arrivalTime_4.Location = new System.Drawing.Point(543, 86);
             this.label_arrivalTime_4.Name = "label_arrivalTime_4";
-            this.label_arrivalTime_4.Size = new System.Drawing.Size(89, 31);
+            this.label_arrivalTime_4.Size = new System.Drawing.Size(134, 48);
             this.label_arrivalTime_4.TabIndex = 8;
             this.label_arrivalTime_4.Text = "12:30";
             // 
             // label_departureTime_4
             // 
             this.label_departureTime_4.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_departureTime_4.Location = new System.Drawing.Point(104, 56);
-            this.label_departureTime_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_departureTime_4.Location = new System.Drawing.Point(156, 86);
             this.label_departureTime_4.Name = "label_departureTime_4";
-            this.label_departureTime_4.Size = new System.Drawing.Size(89, 31);
+            this.label_departureTime_4.Size = new System.Drawing.Size(134, 48);
             this.label_departureTime_4.TabIndex = 7;
             this.label_departureTime_4.Text = "10:45";
             // 
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.SystemColors.ControlText;
-            this.panel8.Location = new System.Drawing.Point(221, 40);
-            this.panel8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel8.Location = new System.Drawing.Point(332, 62);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(85, 3);
+            this.panel8.Size = new System.Drawing.Size(128, 5);
             this.panel8.TabIndex = 6;
             // 
             // button_reservation_4
             // 
             this.button_reservation_4.BackColor = System.Drawing.Color.Turquoise;
-            this.button_reservation_4.Font = new System.Drawing.Font("Verdana", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_reservation_4.Location = new System.Drawing.Point(695, 18);
-            this.button_reservation_4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.button_reservation_4.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_reservation_4.Location = new System.Drawing.Point(1042, 28);
             this.button_reservation_4.Name = "button_reservation_4";
-            this.button_reservation_4.Size = new System.Drawing.Size(129, 63);
+            this.button_reservation_4.Size = new System.Drawing.Size(194, 97);
             this.button_reservation_4.TabIndex = 5;
             this.button_reservation_4.Text = "Rezervă";
             this.button_reservation_4.UseVisualStyleBackColor = false;
@@ -553,10 +513,9 @@
             // 
             this.label_Price_4.AutoSize = true;
             this.label_Price_4.Font = new System.Drawing.Font("Verdana", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Price_4.Location = new System.Drawing.Point(554, 25);
-            this.label_Price_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Price_4.Location = new System.Drawing.Point(831, 38);
             this.label_Price_4.Name = "label_Price_4";
-            this.label_Price_4.Size = new System.Drawing.Size(120, 48);
+            this.label_Price_4.Size = new System.Drawing.Size(184, 73);
             this.label_Price_4.TabIndex = 4;
             this.label_Price_4.Text = "100$";
             // 
@@ -564,10 +523,9 @@
             // 
             this.label19.AutoSize = true;
             this.label19.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label19.Location = new System.Drawing.Point(513, 50);
-            this.label19.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label19.Location = new System.Drawing.Point(755, 75);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(49, 18);
+            this.label19.Size = new System.Drawing.Size(70, 29);
             this.label19.TabIndex = 3;
             this.label19.Text = "de la";
             // 
@@ -575,10 +533,9 @@
             // 
             this.label_Destination_4.AutoSize = true;
             this.label_Destination_4.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Destination_4.Location = new System.Drawing.Point(319, 18);
-            this.label_Destination_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Destination_4.Location = new System.Drawing.Point(478, 28);
             this.label_Destination_4.Name = "label_Destination_4";
-            this.label_Destination_4.Size = new System.Drawing.Size(180, 38);
+            this.label_Destination_4.Size = new System.Drawing.Size(268, 59);
             this.label_Destination_4.TabIndex = 2;
             this.label_Destination_4.Text = "Destinatie";
             // 
@@ -586,20 +543,18 @@
             // 
             this.label_Origin_4.AutoSize = true;
             this.label_Origin_4.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_4.Location = new System.Drawing.Point(84, 16);
-            this.label_Origin_4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label_Origin_4.Location = new System.Drawing.Point(126, 25);
             this.label_Origin_4.Name = "label_Origin_4";
-            this.label_Origin_4.Size = new System.Drawing.Size(133, 38);
+            this.label_Origin_4.Size = new System.Drawing.Size(199, 59);
             this.label_Origin_4.TabIndex = 1;
             this.label_Origin_4.Text = "Plecare";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox4.Location = new System.Drawing.Point(9, 18);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(14, 28);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(69, 70);
+            this.pictureBox4.Size = new System.Drawing.Size(104, 108);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 
@@ -610,20 +565,18 @@
             this.ContentFlightPick.Controls.Add(this.panel3);
             this.ContentFlightPick.Controls.Add(this.button_return);
             this.ContentFlightPick.Controls.Add(this.panel1);
-            this.ContentFlightPick.Location = new System.Drawing.Point(1, 2);
-            this.ContentFlightPick.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ContentFlightPick.Location = new System.Drawing.Point(2, 3);
             this.ContentFlightPick.Name = "ContentFlightPick";
-            this.ContentFlightPick.Size = new System.Drawing.Size(905, 580);
+            this.ContentFlightPick.Size = new System.Drawing.Size(1358, 892);
             this.ContentFlightPick.TabIndex = 6;
             // 
             // FlightPickControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ContentFlightPick);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FlightPickControl";
-            this.Size = new System.Drawing.Size(907, 583);
+            this.Size = new System.Drawing.Size(1360, 897);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
