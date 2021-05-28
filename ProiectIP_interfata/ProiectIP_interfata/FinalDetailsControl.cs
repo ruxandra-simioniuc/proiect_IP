@@ -7,12 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace ProiectIP_interfata
 {
     public partial class FinalDetailsControl : UserControl
     {
-        public FinalDetailsControl(string numarLocuri, string pret, string destinatie, string data)
+        private MySqlConnection _conn;
+        public FinalDetailsControl(string numarLocuri, string pret, string destinatie, string data, MySqlConnection conn)
         {
             InitializeComponent();
 
@@ -20,6 +22,7 @@ namespace ProiectIP_interfata
             label_finalSelectedPrice.Text = pret;
             label_finalDestination.Text = destinatie;
             label_finalSelectedDate.Text = data;
+            _conn = conn;
 
         }
 
@@ -30,8 +33,8 @@ namespace ProiectIP_interfata
 
         private void button_finalReservation_Click(object sender, EventArgs e)
         {
-            UserPickControl userPickControl = new UserPickControl();
-            MainControl.showControl(userPickControl, ContentFinalDetails);
+            WelcomeControl welcomeControl = new WelcomeControl(_conn);
+            MainControl.showControl(welcomeControl, ContentFinalDetails);
         }
 
         private void label_finalSelectedSeats_Click(object sender, EventArgs e)

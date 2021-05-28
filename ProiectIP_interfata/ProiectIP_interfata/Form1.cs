@@ -19,7 +19,7 @@ namespace ProiectIP_interfata
             
             InitializeComponent();
             UserPickControl userPickControl = new UserPickControl();
-            MainControl.showControl(userPickControl, Content);
+            MainControl.showControl(userPickControl, MainContent);
         }
 
         private void Form1_Load(object sender, EventArgs e)

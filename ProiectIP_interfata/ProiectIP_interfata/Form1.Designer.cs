@@ -32,18 +32,19 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.Content = new System.Windows.Forms.Panel();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.ajutorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.despreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ieșireToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.Content = new System.Windows.Forms.Panel();
+            this.MainContent = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel4.SuspendLayout();
             this.menuStrip1.SuspendLayout();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
@@ -89,34 +90,6 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // panel4
-            // 
-            this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panel4.Controls.Add(this.panel5);
-            this.panel4.Controls.Add(this.Content);
-            this.panel4.Location = new System.Drawing.Point(-2, 166);
-            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(120, 908);
-            this.panel4.TabIndex = 4;
-            // 
-            // panel5
-            // 
-            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel5.Location = new System.Drawing.Point(0, -41);
-            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(99, 938);
-            this.panel5.TabIndex = 5;
-            // 
-            // Content
-            // 
-            this.Content.Location = new System.Drawing.Point(118, 6);
-            this.Content.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Content.Name = "Content";
-            this.Content.Size = new System.Drawing.Size(1369, 900);
-            this.Content.TabIndex = 23;
-            // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
@@ -151,11 +124,47 @@
             this.ieșireToolStripMenuItem.Text = "Ieșire";
             this.ieșireToolStripMenuItem.Click += new System.EventHandler(this.ieșireToolStripMenuItem_Click);
             // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.panel4.Controls.Add(this.panel5);
+            this.panel4.Controls.Add(this.Content);
+            this.panel4.Location = new System.Drawing.Point(-2, 166);
+            this.panel4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(120, 908);
+            this.panel4.TabIndex = 4;
+            // 
+            // panel5
+            // 
+            this.panel5.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.panel5.Location = new System.Drawing.Point(0, -41);
+            this.panel5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(99, 938);
+            this.panel5.TabIndex = 5;
+            // 
+            // Content
+            // 
+            this.Content.Location = new System.Drawing.Point(118, 6);
+            this.Content.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Content.Name = "Content";
+            this.Content.Size = new System.Drawing.Size(1369, 900);
+            this.Content.TabIndex = 23;
+            // 
+            // MainContent
+            // 
+            this.MainContent.Location = new System.Drawing.Point(121, 176);
+            this.MainContent.Name = "MainContent";
+            this.MainContent.Size = new System.Drawing.Size(1378, 895);
+            this.MainContent.TabIndex = 5;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1497, 1076);
+            this.Controls.Add(this.MainContent);
             this.Controls.Add(this.panel4);
             this.Controls.Add(this.panel1);
             this.MainMenuStrip = this.menuStrip1;
@@ -167,9 +176,9 @@
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel4.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            this.panel4.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -187,6 +196,7 @@
         private System.Windows.Forms.ToolStripMenuItem ajutorToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem despreToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ieșireToolStripMenuItem;
+        private System.Windows.Forms.Panel MainContent;
     }
 }
 

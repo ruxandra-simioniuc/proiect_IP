@@ -52,7 +52,7 @@ namespace ProiectIP_interfata
 
 
 
-            FinalDetailsControl finalDetailsControl = new FinalDetailsControl(numarLocuri, pret, destinatie, data);
+            FinalDetailsControl finalDetailsControl = new FinalDetailsControl(numarLocuri, pret, destinatie, data, _conn);
             MainControl.showControl(finalDetailsControl, ContentSeatPick);
         }
 
