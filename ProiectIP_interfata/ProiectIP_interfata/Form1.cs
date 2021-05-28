@@ -37,7 +37,9 @@ namespace ProiectIP_interfata
 
         }
 
-      
-        
+        private void ieșireToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

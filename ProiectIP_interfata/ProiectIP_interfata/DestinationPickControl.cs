@@ -28,10 +28,10 @@ namespace ProiectIP_interfata
             string zi = date.Day.ToString();
 
             string data_aleasa = zi + "." + luna + "." + an;
-            MessageBox.Show(zi + "." + luna + "." + an);
+            //MessageBox.Show(zi + "." + luna + "." + an);
 
             List<String> destinatii = _zborManager.GetDestinationBasedOnDate(data_aleasa);
-            MessageBox.Show(destinatii.Count.ToString());
+            //MessageBox.Show(destinatii.Count.ToString());
             InitializeComponent();
             comboBox_destination.DataSource = destinatii;
 
@@ -45,7 +45,7 @@ namespace ProiectIP_interfata
             data_aleasa = data_aleasa.Split(' ')[0];
             string[] bucati = data_aleasa.Split('/');
             string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
-            MessageBox.Show(format_data);
+            //MessageBox.Show(format_data);
             List<String> destinatii = _zborManager.GetDestinationBasedOnDate(format_data);
             comboBox_destination.DataSource = destinatii;
 
@@ -69,7 +69,7 @@ namespace ProiectIP_interfata
             }
             catch(Exception)
             {
-                MessageBox.Show("Trebuie selectata o destinatie valida!");
+                MessageBox.Show("Trebuie selectată o destinație validă!");
             }
            
         }

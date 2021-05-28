@@ -35,6 +35,7 @@
             this.monthCalendar_flightTime = new System.Windows.Forms.MonthCalendar();
             this.label6 = new System.Windows.Forms.Label();
             this.ContentDestinationPick = new System.Windows.Forms.Panel();
+            this.label_info = new System.Windows.Forms.Label();
             this.ContentDestinationPick.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,7 +44,7 @@
             this.comboBox_destination.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.comboBox_destination.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_destination.FormattingEnabled = true;
-            this.comboBox_destination.Location = new System.Drawing.Point(141, 353);
+            this.comboBox_destination.Location = new System.Drawing.Point(797, 378);
             this.comboBox_destination.Name = "comboBox_destination";
             this.comboBox_destination.Size = new System.Drawing.Size(356, 54);
             this.comboBox_destination.TabIndex = 1;
@@ -52,11 +53,11 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(133, 292);
+            this.label2.Location = new System.Drawing.Point(872, 317);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(197, 46);
             this.label2.TabIndex = 5;
-            this.label2.Text = "Destinatie";
+            this.label2.Text = "Destinație";
             // 
             // button_findFlight
             // 
@@ -66,7 +67,7 @@
             this.button_findFlight.Name = "button_findFlight";
             this.button_findFlight.Size = new System.Drawing.Size(340, 77);
             this.button_findFlight.TabIndex = 8;
-            this.button_findFlight.Text = "Cauta zbor";
+            this.button_findFlight.Text = "Caută zbor";
             this.button_findFlight.UseVisualStyleBackColor = false;
             this.button_findFlight.Click += new System.EventHandler(this.button_findFlight_Click);
             // 
@@ -82,7 +83,7 @@
             // monthCalendar_flightTime
             // 
             this.monthCalendar_flightTime.BackColor = System.Drawing.SystemColors.Window;
-            this.monthCalendar_flightTime.Location = new System.Drawing.Point(821, 232);
+            this.monthCalendar_flightTime.Location = new System.Drawing.Point(137, 264);
             this.monthCalendar_flightTime.Name = "monthCalendar_flightTime";
             this.monthCalendar_flightTime.TabIndex = 12;
             this.monthCalendar_flightTime.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar_flightTime_DateChanged);
@@ -91,7 +92,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(935, 177);
+            this.label6.Location = new System.Drawing.Point(251, 209);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(104, 46);
             this.label6.TabIndex = 13;
@@ -99,6 +100,7 @@
             // 
             // ContentDestinationPick
             // 
+            this.ContentDestinationPick.Controls.Add(this.label_info);
             this.ContentDestinationPick.Controls.Add(this.label6);
             this.ContentDestinationPick.Controls.Add(this.monthCalendar_flightTime);
             this.ContentDestinationPick.Controls.Add(this.button1);
@@ -109,6 +111,16 @@
             this.ContentDestinationPick.Name = "ContentDestinationPick";
             this.ContentDestinationPick.Size = new System.Drawing.Size(1363, 890);
             this.ContentDestinationPick.TabIndex = 14;
+            // 
+            // label_info
+            // 
+            this.label_info.AutoSize = true;
+            this.label_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_info.Location = new System.Drawing.Point(327, 80);
+            this.label_info.Name = "label_info";
+            this.label_info.Size = new System.Drawing.Size(681, 46);
+            this.label_info.TabIndex = 14;
+            this.label_info.Text = "Alegeți data călătoriei, apoi destinația";
             // 
             // DestinationPickControl
             // 
@@ -131,5 +143,6 @@
         private System.Windows.Forms.MonthCalendar monthCalendar_flightTime;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Panel ContentDestinationPick;
+        private System.Windows.Forms.Label label_info;
     }
 }

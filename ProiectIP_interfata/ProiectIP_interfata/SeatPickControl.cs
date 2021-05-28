@@ -180,7 +180,7 @@ namespace ProiectIP_interfata
                 }
                 catch(Exception e)
                 {
-                    MessageBox.Show("index.err = " + i.ToString());
+                    MessageBox.Show(e.Message);
                 }
             }
 
@@ -206,7 +206,7 @@ namespace ProiectIP_interfata
             int count = _indexZbor - 1;
             seatingPlan = lines[count];
 
-            MessageBox.Show(seatingPlan);
+            //MessageBox.Show(seatingPlan);
             //File.WriteAllLines(fileName, lines);
         }
 
@@ -220,10 +220,10 @@ namespace ProiectIP_interfata
 
             _pretZbor = Convert.ToInt32(lines.Split(' ')[1]);
 
-            MessageBox.Show(_indexZbor.ToString());
+            //MessageBox.Show(_indexZbor.ToString());
 
 
-            MessageBox.Show(_pretZbor.ToString());
+            //MessageBox.Show(_pretZbor.ToString());
         }
 
         private void UpdatePriceLabels()

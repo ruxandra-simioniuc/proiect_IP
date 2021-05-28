@@ -163,3 +163,5 @@ D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP
 D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
 D:\GITHUB\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\bin\Debug\SelectareZbor.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.WelcomeControl.resources

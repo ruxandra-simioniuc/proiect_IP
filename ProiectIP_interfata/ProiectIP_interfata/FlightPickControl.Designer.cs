@@ -127,7 +127,7 @@
             this.label_departureTime_1.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_departureTime_1.Location = new System.Drawing.Point(206, 89);
             this.label_departureTime_1.Name = "label_departureTime_1";
-            this.label_departureTime_1.Size = new System.Drawing.Size(134, 32);
+            this.label_departureTime_1.Size = new System.Drawing.Size(134, 45);
             this.label_departureTime_1.TabIndex = 7;
             this.label_departureTime_1.Text = "10:45";
             // 
@@ -187,18 +187,18 @@
             // 
             this.label_Origin_1.AutoSize = true;
             this.label_Origin_1.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_1.Location = new System.Drawing.Point(176, 28);
+            this.label_Origin_1.Location = new System.Drawing.Point(215, 28);
             this.label_Origin_1.Name = "label_Origin_1";
-            this.label_Origin_1.Size = new System.Drawing.Size(199, 59);
+            this.label_Origin_1.Size = new System.Drawing.Size(113, 59);
             this.label_Origin_1.TabIndex = 1;
-            this.label_Origin_1.Text = "Plecare";
+            this.label_Origin_1.Text = "Iași";
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox1.Location = new System.Drawing.Point(14, 28);
+            this.pictureBox1.Location = new System.Drawing.Point(14, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(104, 108);
+            this.pictureBox1.Size = new System.Drawing.Size(155, 151);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -255,7 +255,7 @@
             this.label_departureTime_2.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_departureTime_2.Location = new System.Drawing.Point(206, 88);
             this.label_departureTime_2.Name = "label_departureTime_2";
-            this.label_departureTime_2.Size = new System.Drawing.Size(134, 48);
+            this.label_departureTime_2.Size = new System.Drawing.Size(134, 57);
             this.label_departureTime_2.TabIndex = 7;
             this.label_departureTime_2.Text = "10:45";
             // 
@@ -313,18 +313,18 @@
             // 
             this.label_Origin_2.AutoSize = true;
             this.label_Origin_2.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_2.Location = new System.Drawing.Point(176, 27);
+            this.label_Origin_2.Location = new System.Drawing.Point(215, 28);
             this.label_Origin_2.Name = "label_Origin_2";
-            this.label_Origin_2.Size = new System.Drawing.Size(199, 59);
+            this.label_Origin_2.Size = new System.Drawing.Size(113, 59);
             this.label_Origin_2.TabIndex = 1;
-            this.label_Origin_2.Text = "Plecare";
+            this.label_Origin_2.Text = "Iași";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox2.Location = new System.Drawing.Point(14, 28);
+            this.pictureBox2.Location = new System.Drawing.Point(14, -2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(104, 108);
+            this.pictureBox2.Size = new System.Drawing.Size(155, 156);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
             // 
@@ -370,7 +370,7 @@
             this.label_departureTime_3.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_departureTime_3.Location = new System.Drawing.Point(206, 86);
             this.label_departureTime_3.Name = "label_departureTime_3";
-            this.label_departureTime_3.Size = new System.Drawing.Size(134, 48);
+            this.label_departureTime_3.Size = new System.Drawing.Size(134, 57);
             this.label_departureTime_3.TabIndex = 7;
             this.label_departureTime_3.Text = "10:45";
             // 
@@ -428,18 +428,18 @@
             // 
             this.label_Origin_3.AutoSize = true;
             this.label_Origin_3.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_3.Location = new System.Drawing.Point(176, 25);
+            this.label_Origin_3.Location = new System.Drawing.Point(215, 18);
             this.label_Origin_3.Name = "label_Origin_3";
-            this.label_Origin_3.Size = new System.Drawing.Size(199, 59);
+            this.label_Origin_3.Size = new System.Drawing.Size(113, 59);
             this.label_Origin_3.TabIndex = 1;
-            this.label_Origin_3.Text = "Plecare";
+            this.label_Origin_3.Text = "Iași";
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox3.Location = new System.Drawing.Point(14, 28);
+            this.pictureBox3.Location = new System.Drawing.Point(14, -1);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(104, 108);
+            this.pictureBox3.Size = new System.Drawing.Size(155, 155);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
             // 
@@ -485,7 +485,7 @@
             this.label_departureTime_4.Font = new System.Drawing.Font("Verdana", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label_departureTime_4.Location = new System.Drawing.Point(205, 88);
             this.label_departureTime_4.Name = "label_departureTime_4";
-            this.label_departureTime_4.Size = new System.Drawing.Size(134, 48);
+            this.label_departureTime_4.Size = new System.Drawing.Size(134, 69);
             this.label_departureTime_4.TabIndex = 7;
             this.label_departureTime_4.Text = "10:45";
             // 
@@ -543,18 +543,18 @@
             // 
             this.label_Origin_4.AutoSize = true;
             this.label_Origin_4.Font = new System.Drawing.Font("Verdana", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_Origin_4.Location = new System.Drawing.Point(175, 27);
+            this.label_Origin_4.Location = new System.Drawing.Point(215, 28);
             this.label_Origin_4.Name = "label_Origin_4";
-            this.label_Origin_4.Size = new System.Drawing.Size(199, 59);
+            this.label_Origin_4.Size = new System.Drawing.Size(113, 59);
             this.label_Origin_4.TabIndex = 1;
-            this.label_Origin_4.Text = "Plecare";
+            this.label_Origin_4.Text = "Iași";
             // 
             // pictureBox4
             // 
             this.pictureBox4.Image = global::ProiectIP_interfata.Properties.Resources.blue_airplane_100x100;
-            this.pictureBox4.Location = new System.Drawing.Point(14, 28);
+            this.pictureBox4.Location = new System.Drawing.Point(14, -2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(104, 108);
+            this.pictureBox4.Size = new System.Drawing.Size(155, 156);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
             // 

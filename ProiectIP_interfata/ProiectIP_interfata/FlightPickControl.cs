@@ -52,7 +52,8 @@ namespace ProiectIP_interfata
             {
                 get
                 {
-                    return Convert.ToInt32(price.Text);
+                    string simple_price = price.Text.Replace("€", "");
+                    return Convert.ToInt32(simple_price);
                 }
             }
 
@@ -68,8 +69,9 @@ namespace ProiectIP_interfata
                     aux[1] = "0" + aux[1];
                     _duration = aux[0] + ":" + aux[1];
                 }
-                duration.Text = _duration;
-                price.Text = _price;
+
+                duration.Text = _duration + " h";
+                price.Text = _price + "€";
             }
         }
         public FlightPickControl(MySqlConnection conn, List<int> zboruri)
