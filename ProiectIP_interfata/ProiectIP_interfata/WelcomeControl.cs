@@ -13,23 +13,40 @@ namespace ProiectIP_interfata
 {
     public partial class WelcomeControl : UserControl
     {
+        #region Private Member Variables
         private MySqlConnection _conn;
-        public WelcomeControl(MySqlConnection conn)
-        {
-            InitializeComponent();
-            _conn = conn;
-        }
+        #endregion
 
-        private void button_reservation_Click(object sender, EventArgs e)
+        #region Private Methods
+        /// <summary>
+        /// Schimba Panelul la cel de alegere destinatie bilet
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonReservation_Click(object sender, EventArgs e)
         {
             DestinationPickControl destinationPickControl = new DestinationPickControl(_conn);
             MainControl.showControl(destinationPickControl, WelcomeContent);
         }
 
-        private void button_logout_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Schimba Panelul la cel de logare
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonLogout_Click(object sender, EventArgs e)
         {
             UserPickControl userPickControl = new UserPickControl();
             MainControl.showControl(userPickControl, WelcomeContent);
         }
+        #endregion
+
+        #region Contructors
+        public WelcomeControl(MySqlConnection conn)
+        {
+            InitializeComponent();
+            _conn = conn;
+        }
+        #endregion        
     }
 }

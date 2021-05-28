@@ -9,6 +9,7 @@ namespace ProiectIP_interfata
 {
     class MainControl
     {
+        #region Public Methods
         public static void showControl(Control control, Control Content)
         {
             Content.Controls.Clear();
@@ -18,7 +19,7 @@ namespace ProiectIP_interfata
             control.Focus();
 
             Content.Controls.Add(control);
-
         }
+        #endregion
     }
 }

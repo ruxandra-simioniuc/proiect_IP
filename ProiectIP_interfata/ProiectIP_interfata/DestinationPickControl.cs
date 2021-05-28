@@ -9,76 +9,101 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using SelectareZbor;
+
 namespace ProiectIP_interfata
 {
     public partial class DestinationPickControl : UserControl
     {
+        #region Private Member Variables
         private MySqlConnection _conn;
         private ZboruriManager _zborManager;
-        private List<int> zboruri;
-        public DestinationPickControl(MySqlConnection conn)
+        private List<int> _zboruri;
+        #endregion
+
+        #region Private Methods
+        /// <summary>
+        /// seteaza maxSelectionCount to 1 pentru a putea alege o singura zi, apoi data e in selectedRange.start.ToString()
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void monthCalendarFlightTime_DateChanged(object sender, DateRangeEventArgs e)
         {
-            
-
-            _conn = conn;
-            _zborManager = new ZboruriManager(_conn);
-            DateTime date = DateTime.Now;
-            string an = date.Year.ToString();
-            string luna = date.Month.ToString();
-            string zi = date.Day.ToString();
-
-            string data_aleasa = zi + "." + luna + "." + an;
-            //MessageBox.Show(zi + "." + luna + "." + an);
-
-            List<String> destinatii = _zborManager.GetDestinationBasedOnDate(data_aleasa);
-            //MessageBox.Show(destinatii.Count.ToString());
-            InitializeComponent();
-            comboBox_destination.DataSource = destinatii;
-
-        }
-        //seteaza maxSelectionCount to 1 pentru a putea alege o singura zi
-        //apoi data e in selectedRange.start.ToString()
-        private void monthCalendar_flightTime_DateChanged(object sender, DateRangeEventArgs e)
-        {
-            string data_aleasa = monthCalendar_flightTime.SelectionRange.Start.ToString();
+            string data_aleasa = monthCalendarFlightTime.SelectionRange.Start.ToString();
 
             data_aleasa = data_aleasa.Split(' ')[0];
             string[] bucati = data_aleasa.Split('/');
             string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
             //MessageBox.Show(format_data);
             List<String> destinatii = _zborManager.GetDestinationBasedOnDate(format_data);
-            comboBox_destination.DataSource = destinatii;
+            comboBoxDestination.DataSource = destinatii;
 
         }
 
-        private void button_findFlight_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Schimba Panelul, trimite conexiunea pt baza de data si zborurile disponibile
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonFindFlight_Click(object sender, EventArgs e)
         {
             try
             {
-                string data_aleasa = monthCalendar_flightTime.SelectionRange.Start.ToString();
+                string dataAleasa = monthCalendarFlightTime.SelectionRange.Start.ToString();
 
-                data_aleasa = data_aleasa.Split(' ')[0];
-                string[] bucati = data_aleasa.Split('/');
-                string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
-                string destinatie = comboBox_destination.SelectedValue.ToString();
-                //lista ce contine id-urile cu zbourile disponibile (ar trebui sa fie afisata pe aia cu FlightPickControl)
-                //trebuie cumva trimisa lista la acel panel(de ex ca parametru)
-                zboruri = _zborManager.GetFlights(destinatie, format_data);
-                FlightPickControl flightPickControl = new FlightPickControl(_conn, zboruri);
+                dataAleasa = dataAleasa.Split(' ')[0];
+                string[] bucati = dataAleasa.Split('/');
+                string formatData = bucati[1] + "." + bucati[0] + "." + bucati[2];
+                string destinatie = comboBoxDestination.SelectedValue.ToString();
+
+                _zboruri = _zborManager.GetFlights(destinatie, formatData);
+                FlightPickControl flightPickControl = new FlightPickControl(_conn, _zboruri);
                 MainControl.showControl(flightPickControl, ContentDestinationPick);
             }
-            catch(Exception)
+            catch (Exception)
             {
                 MessageBox.Show("Trebuie selectată o destinație validă!");
             }
-           
         }
+        #endregion
+
+        #region Constructors
+        /// <summary>
+        /// Constructor
+        /// </summary>
+        /// <param name="conn"></param>
+        public DestinationPickControl(MySqlConnection conn)
+        {
+            string an, luna, zi, dataAleasa;
+            List<string> destinatii;
+
+            _conn = conn;
+            _zborManager = new ZboruriManager(_conn);
+            DateTime date = DateTime.Now;
+            an = date.Year.ToString();
+            luna = date.Month.ToString();
+            zi = date.Day.ToString();
+
+            dataAleasa = zi + "." + luna + "." + an;
+            
+            destinatii = _zborManager.GetDestinationBasedOnDate(dataAleasa);
+
+            InitializeComponent();
+            comboBoxDestination.DataSource = destinatii;
+
+        }
+        #endregion
+
+        #region Public Properties
+        /// <summary>
+        /// Getter pentru zborurile disponibile
+        /// </summary>
         public List<int> Zboruri
         {
             get
             {
-                return zboruri;
+                return _zboruri;
             }
         }
+        #endregion
     }
 }

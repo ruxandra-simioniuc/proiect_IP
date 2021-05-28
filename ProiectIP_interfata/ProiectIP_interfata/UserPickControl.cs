@@ -14,22 +14,23 @@ namespace ProiectIP_interfata
 {
     public partial class UserPickControl : UserControl
     {
+        #region Private Member Variables
         private MySqlConnection _conn;
         private UsersManager _usersManager;
-        public UserPickControl()
-        {
-            string MyConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
+        #endregion
 
-            _conn = new MySqlConnection(MyConStr);
-            _usersManager = new UsersManager(_conn);
-            InitializeComponent();
-        }
-
-        private void button_login_Click(object sender, EventArgs e)
+        #region Private Methods
+        /// <summary>
+        /// Verifica logarea
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonLogin_Click(object sender, EventArgs e)
         {
-            string mail = textBox_login_email.Text;
-            string parola = textBox_login_password.Text;
+            string mail = textBoxLoginEmail.Text;
+            string parola = textBoxLoginPassword.Text;
             int id = _usersManager.Logare(mail, parola);
+
             if (id == -1)
             {
                 MessageBox.Show("Date invalide");
@@ -41,14 +42,20 @@ namespace ProiectIP_interfata
             }
         }
 
-        private void button_signup_Click(object sender, EventArgs e)
+        /// <summary>
+        /// Incearca sa faca sign up pt un utilizator nou
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonSignup_Click(object sender, EventArgs e)
         {
-            string nume = textBox_signup_name.Text;
-            string prenume = textBox_signup_surname.Text;
-            string mail = textBox_signup_email.Text;
-            string parola = textBox_signup_password.Text;
-            string verificare_parola = textBox_signup_passwordRepeat.Text;
-            if (_usersManager.signUp(nume, prenume, mail, parola, verificare_parola))
+            string nume = textBoxSignUpName.Text;
+            string prenume = textBoxSignUpSurname.Text;
+            string mail = textBoxSignUpEmail.Text;
+            string parola = textBoxSignUpPassword.Text;
+            string verificareParola = textBoSignUpPasswordRepeat.Text;
+
+            if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola))
             {
                 MessageBox.Show("V-ati inregistrat cu succes!");
             }
@@ -57,5 +64,20 @@ namespace ProiectIP_interfata
                 MessageBox.Show("Eroare!");
             }
         }
+        #endregion
+
+        #region Constructors
+        /// <summary>
+        /// Constructor care face conexiunea MySQL cu baza de date
+        /// </summary>
+        public UserPickControl()
+        {
+            string myConStr = "Server=localhost;Database=proiect_ip;uid=claudiu;pwd=pass_1234";
+
+            _conn = new MySqlConnection(myConStr);
+            _usersManager = new UsersManager(_conn);
+            InitializeComponent();
+        }
+        #endregion
     }
 }

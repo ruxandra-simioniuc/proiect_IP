@@ -13,26 +13,19 @@ namespace ProiectIP_interfata
 {
     public partial class Form1 : Form
     {
-        
+        #region Constructors
         public Form1()
         {
             
             InitializeComponent();
+
             UserPickControl userPickControl = new UserPickControl();
             MainControl.showControl(userPickControl, MainContent);
         }
+        #endregion
 
+        #region Private Methods
         private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
         {
 
         }
@@ -41,5 +34,6 @@ namespace ProiectIP_interfata
         {
             this.Close();
         }
+        #endregion
     }
 }

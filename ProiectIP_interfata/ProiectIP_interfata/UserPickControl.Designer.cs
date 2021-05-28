@@ -28,13 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox_login_email = new System.Windows.Forms.TextBox();
-            this.textBox_login_password = new System.Windows.Forms.TextBox();
-            this.textBox_signup_name = new System.Windows.Forms.TextBox();
-            this.textBox_signup_surname = new System.Windows.Forms.TextBox();
-            this.textBox_signup_password = new System.Windows.Forms.TextBox();
-            this.textBox_signup_email = new System.Windows.Forms.TextBox();
-            this.textBox_signup_passwordRepeat = new System.Windows.Forms.TextBox();
+            this.textBoxLoginEmail = new System.Windows.Forms.TextBox();
+            this.textBoxLoginPassword = new System.Windows.Forms.TextBox();
+            this.textBoxSignUpName = new System.Windows.Forms.TextBox();
+            this.textBoxSignUpSurname = new System.Windows.Forms.TextBox();
+            this.textBoxSignUpPassword = new System.Windows.Forms.TextBox();
+            this.textBoxSignUpEmail = new System.Windows.Forms.TextBox();
+            this.textBoSignUpPasswordRepeat = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -52,69 +52,69 @@
             // 
             // textBox_login_email
             // 
-            this.textBox_login_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_login_email.Location = new System.Drawing.Point(202, 178);
-            this.textBox_login_email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_login_email.Name = "textBox_login_email";
-            this.textBox_login_email.Size = new System.Drawing.Size(210, 30);
-            this.textBox_login_email.TabIndex = 0;
+            this.textBoxLoginEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLoginEmail.Location = new System.Drawing.Point(202, 178);
+            this.textBoxLoginEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxLoginEmail.Name = "textBox_login_email";
+            this.textBoxLoginEmail.Size = new System.Drawing.Size(210, 30);
+            this.textBoxLoginEmail.TabIndex = 0;
             // 
             // textBox_login_password
             // 
-            this.textBox_login_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_login_password.Location = new System.Drawing.Point(202, 243);
-            this.textBox_login_password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_login_password.Name = "textBox_login_password";
-            this.textBox_login_password.PasswordChar = '*';
-            this.textBox_login_password.Size = new System.Drawing.Size(210, 30);
-            this.textBox_login_password.TabIndex = 1;
+            this.textBoxLoginPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxLoginPassword.Location = new System.Drawing.Point(202, 243);
+            this.textBoxLoginPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxLoginPassword.Name = "textBox_login_password";
+            this.textBoxLoginPassword.PasswordChar = '*';
+            this.textBoxLoginPassword.Size = new System.Drawing.Size(210, 30);
+            this.textBoxLoginPassword.TabIndex = 1;
             // 
             // textBox_signup_name
             // 
-            this.textBox_signup_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_signup_name.Location = new System.Drawing.Point(655, 241);
-            this.textBox_signup_name.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_signup_name.Name = "textBox_signup_name";
-            this.textBox_signup_name.Size = new System.Drawing.Size(210, 30);
-            this.textBox_signup_name.TabIndex = 3;
+            this.textBoxSignUpName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSignUpName.Location = new System.Drawing.Point(655, 241);
+            this.textBoxSignUpName.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxSignUpName.Name = "textBox_signup_name";
+            this.textBoxSignUpName.Size = new System.Drawing.Size(210, 30);
+            this.textBoxSignUpName.TabIndex = 3;
             // 
             // textBox_signup_surname
             // 
-            this.textBox_signup_surname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_signup_surname.Location = new System.Drawing.Point(655, 176);
-            this.textBox_signup_surname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_signup_surname.Name = "textBox_signup_surname";
-            this.textBox_signup_surname.Size = new System.Drawing.Size(210, 30);
-            this.textBox_signup_surname.TabIndex = 2;
+            this.textBoxSignUpSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSignUpSurname.Location = new System.Drawing.Point(655, 176);
+            this.textBoxSignUpSurname.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxSignUpSurname.Name = "textBox_signup_surname";
+            this.textBoxSignUpSurname.Size = new System.Drawing.Size(210, 30);
+            this.textBoxSignUpSurname.TabIndex = 2;
             // 
             // textBox_signup_password
             // 
-            this.textBox_signup_password.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_signup_password.Location = new System.Drawing.Point(655, 366);
-            this.textBox_signup_password.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_signup_password.Name = "textBox_signup_password";
-            this.textBox_signup_password.PasswordChar = '*';
-            this.textBox_signup_password.Size = new System.Drawing.Size(210, 30);
-            this.textBox_signup_password.TabIndex = 5;
+            this.textBoxSignUpPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSignUpPassword.Location = new System.Drawing.Point(655, 366);
+            this.textBoxSignUpPassword.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxSignUpPassword.Name = "textBox_signup_password";
+            this.textBoxSignUpPassword.PasswordChar = '*';
+            this.textBoxSignUpPassword.Size = new System.Drawing.Size(210, 30);
+            this.textBoxSignUpPassword.TabIndex = 5;
             // 
             // textBox_signup_email
             // 
-            this.textBox_signup_email.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_signup_email.Location = new System.Drawing.Point(655, 302);
-            this.textBox_signup_email.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_signup_email.Name = "textBox_signup_email";
-            this.textBox_signup_email.Size = new System.Drawing.Size(210, 30);
-            this.textBox_signup_email.TabIndex = 4;
+            this.textBoxSignUpEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxSignUpEmail.Location = new System.Drawing.Point(655, 302);
+            this.textBoxSignUpEmail.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoxSignUpEmail.Name = "textBox_signup_email";
+            this.textBoxSignUpEmail.Size = new System.Drawing.Size(210, 30);
+            this.textBoxSignUpEmail.TabIndex = 4;
             // 
             // textBox_signup_passwordRepeat
             // 
-            this.textBox_signup_passwordRepeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_signup_passwordRepeat.Location = new System.Drawing.Point(655, 423);
-            this.textBox_signup_passwordRepeat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.textBox_signup_passwordRepeat.Name = "textBox_signup_passwordRepeat";
-            this.textBox_signup_passwordRepeat.PasswordChar = '*';
-            this.textBox_signup_passwordRepeat.Size = new System.Drawing.Size(210, 30);
-            this.textBox_signup_passwordRepeat.TabIndex = 6;
+            this.textBoSignUpPasswordRepeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoSignUpPasswordRepeat.Location = new System.Drawing.Point(655, 423);
+            this.textBoSignUpPasswordRepeat.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.textBoSignUpPasswordRepeat.Name = "textBox_signup_passwordRepeat";
+            this.textBoSignUpPasswordRepeat.PasswordChar = '*';
+            this.textBoSignUpPasswordRepeat.Size = new System.Drawing.Size(210, 30);
+            this.textBoSignUpPasswordRepeat.TabIndex = 6;
             // 
             // label1
             // 
@@ -217,7 +217,7 @@
             this.button_login.TabIndex = 16;
             this.button_login.Text = "Log in";
             this.button_login.UseVisualStyleBackColor = false;
-            this.button_login.Click += new System.EventHandler(this.button_login_Click);
+            this.button_login.Click += new System.EventHandler(this.buttonLogin_Click);
             // 
             // button_signup
             // 
@@ -230,7 +230,7 @@
             this.button_signup.TabIndex = 17;
             this.button_signup.Text = "Sign up";
             this.button_signup.UseVisualStyleBackColor = false;
-            this.button_signup.Click += new System.EventHandler(this.button_signup_Click);
+            this.button_signup.Click += new System.EventHandler(this.buttonSignup_Click);
             // 
             // UserPickContent
             // 
@@ -241,17 +241,17 @@
             this.UserPickContent.Controls.Add(this.label3);
             this.UserPickContent.Controls.Add(this.label2);
             this.UserPickContent.Controls.Add(this.label1);
-            this.UserPickContent.Controls.Add(this.textBox_login_password);
+            this.UserPickContent.Controls.Add(this.textBoxLoginPassword);
             this.UserPickContent.Controls.Add(this.label8);
-            this.UserPickContent.Controls.Add(this.textBox_login_email);
-            this.UserPickContent.Controls.Add(this.textBox_signup_passwordRepeat);
+            this.UserPickContent.Controls.Add(this.textBoxLoginEmail);
+            this.UserPickContent.Controls.Add(this.textBoSignUpPasswordRepeat);
             this.UserPickContent.Controls.Add(this.label7);
-            this.UserPickContent.Controls.Add(this.textBox_signup_password);
+            this.UserPickContent.Controls.Add(this.textBoxSignUpPassword);
             this.UserPickContent.Controls.Add(this.label6);
             this.UserPickContent.Controls.Add(this.label5);
-            this.UserPickContent.Controls.Add(this.textBox_signup_email);
-            this.UserPickContent.Controls.Add(this.textBox_signup_name);
-            this.UserPickContent.Controls.Add(this.textBox_signup_surname);
+            this.UserPickContent.Controls.Add(this.textBoxSignUpEmail);
+            this.UserPickContent.Controls.Add(this.textBoxSignUpName);
+            this.UserPickContent.Controls.Add(this.textBoxSignUpSurname);
             this.UserPickContent.Location = new System.Drawing.Point(3, 0);
             this.UserPickContent.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.UserPickContent.Name = "UserPickContent";
@@ -274,13 +274,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox_login_email;
-        private System.Windows.Forms.TextBox textBox_login_password;
-        private System.Windows.Forms.TextBox textBox_signup_name;
-        private System.Windows.Forms.TextBox textBox_signup_surname;
-        private System.Windows.Forms.TextBox textBox_signup_password;
-        private System.Windows.Forms.TextBox textBox_signup_email;
-        private System.Windows.Forms.TextBox textBox_signup_passwordRepeat;
+        private System.Windows.Forms.TextBox textBoxLoginEmail;
+        private System.Windows.Forms.TextBox textBoxLoginPassword;
+        private System.Windows.Forms.TextBox textBoxSignUpName;
+        private System.Windows.Forms.TextBox textBoxSignUpSurname;
+        private System.Windows.Forms.TextBox textBoxSignUpPassword;
+        private System.Windows.Forms.TextBox textBoxSignUpEmail;
+        private System.Windows.Forms.TextBox textBoSignUpPasswordRepeat;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;

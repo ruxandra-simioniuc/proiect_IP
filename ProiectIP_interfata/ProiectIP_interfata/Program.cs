@@ -8,15 +8,21 @@ namespace ProiectIP_interfata
 {
     public sealed class Singleton
     {
+        #region Private Member Variables
+        private static readonly object _lock = new object();
+        private static Singleton instance = null;
+        #endregion
+
+        #region Constructors
         Singleton()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
         }
-        private static readonly object _lock = new object();
-        private static Singleton instance = null;
+        #endregion
 
+        #region Public Methods
         internal static Singleton Instance()
         {
             if (instance == null)
@@ -31,6 +37,7 @@ namespace ProiectIP_interfata
             }
             return instance;
         }
+        #endregion
     }
     static class Program
     {
@@ -43,7 +50,6 @@ namespace ProiectIP_interfata
         {
             Singleton singleton = Singleton.Instance();
             Singleton singleton2 = Singleton.Instance();
-
         }
     }
 }

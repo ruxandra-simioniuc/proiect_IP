@@ -14,48 +14,42 @@ namespace ProiectIP_interfata
 {
     public partial class SeatPickControl : UserControl
     {
+        #region Private Member Variables
         private int _indexZbor;
         private int _pretZbor ;
-        string seatingPlan = "";
-        string[] takenSeats;
-        int[] seatsByClass = { 0, 0, 0 }; // first, business, economy
-        int economyClassPrice;
-        int businessClassPrice;
-        int firstClassPrice;
-        ZboruriManager zboruriManager;
-        MySqlConnection _conn;
+        private string seatingPlan = "";
+        private string[] takenSeats;
+        private int[] seatsByClass = { 0, 0, 0 }; // first, business, economy
+        private int economyClassPrice;
+        private int businessClassPrice;
+        private int firstClassPrice;
+        private ZboruriManager zboruriManager;
+        private MySqlConnection _conn;
+        #endregion
 
-        public SeatPickControl(int indexZbor, int pretZbor , MySqlConnection conn)
-        {
-            _conn = conn;
-            _indexZbor = indexZbor;
-            _pretZbor = pretZbor;
-            InitializeComponent();
-
-            // ReadSeatPickArgs();
-
-            ReadSeatingPlanFromBD();
-
-            OccupySeats();
-
-            UpdatePriceLabels();
-
-        }
-
-        private void button_next_Click(object sender, EventArgs e)
+        #region Private Methods
+        /// <summary>
+        /// Schimba Panelul in cel de Checkout si trimite parametrii mai departe
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonNext_Click(object sender, EventArgs e)
         {
             zboruriManager = new ZboruriManager(_conn);
-            string numarLocuri = label_selectedSeats.Text;
-            string pret = label_seatPrice.Text;
+            string numarLocuri = labelSelectedSeats.Text;
+            string pret = labelSeatPrice.Text;
             string destinatie = zboruriManager.GetDestinatie(_indexZbor.ToString());
             string data = zboruriManager.GetData(_indexZbor.ToString());
-
-
 
             FinalDetailsControl finalDetailsControl = new FinalDetailsControl(numarLocuri, pret, destinatie, data, _conn);
             MainControl.showControl(finalDetailsControl, ContentSeatPick);
         }
 
+        /// <summary>
+        /// Callback pt butoanele First Class
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SelectFirstClass(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
@@ -72,8 +66,6 @@ namespace ProiectIP_interfata
                 WriteSeatingPlanToBD(seatingPlan.Split(' ')[0]);
 
                 UpdateSeatingLabels();
-
-                //MessageBox.Show(seatingPlan);
             }
             else
             {
@@ -86,12 +78,15 @@ namespace ProiectIP_interfata
                 WriteSeatingPlanToBD(seatingPlan.Split(' ')[0]);
 
                 UpdateSeatingLabels();
-
-                //MessageBox.Show(seatingPlan);
             }
 
         }
 
+        /// <summary>
+        /// Callback pt butoanele Business Class
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SelectBusinessClass(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
@@ -108,25 +103,26 @@ namespace ProiectIP_interfata
                 WriteSeatingPlanToBD(seatingPlan.Split(' ')[0]);
 
                 UpdateSeatingLabels();
-
-                //MessageBox.Show(seatingPlan);
             }
             else
             {
                 btn.BackColor = Color.DarkRed;
 
-                seatsByClass[1]++; // poate un check
+                seatsByClass[1]++;
 
                 seatingPlan += " " + btnName;
 
                 WriteSeatingPlanToBD(seatingPlan.Split(' ')[0]);
 
                 UpdateSeatingLabels();
-
-                //MessageBox.Show(seatingPlan);
             }
         }
 
+        /// <summary>
+        /// Callback pentru butoanele Economy
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void SelectEconomyClass(object sender, EventArgs e)
         {
             Button btn = (Button)sender;
@@ -143,8 +139,6 @@ namespace ProiectIP_interfata
                 WriteSeatingPlanToBD(seatingPlan.Split(' ')[0]);
 
                 UpdateSeatingLabels();
-
-                //MessageBox.Show(seatingPlan);
             }
             else
             {
@@ -157,28 +151,30 @@ namespace ProiectIP_interfata
                 WriteSeatingPlanToBD(seatingPlan.Split(' ')[0]);
 
                 UpdateSeatingLabels();
-
-                //MessageBox.Show(seatingPlan);
             }
         }
 
+        /// <summary>
+        /// Marcheaza locurile indisponibile ca fiind ocupate
+        /// </summary>
         private void OccupySeats()
         {
             takenSeats = seatingPlan.Split(' ');
 
             for (int i = 1; i < takenSeats.Length; i++)
             {
-               
+
                 try
                 {
-                    if (takenSeats[i].Length > 1) {
+                    if (takenSeats[i].Length > 1)
+                    {
                         Button btn = (Button)ContentSeatPick.Controls["button_" + takenSeats[i]];
 
                         btn.BackColor = Color.DarkSlateGray;
                         btn.Enabled = false;
                     }
                 }
-                catch(Exception e)
+                catch (Exception e)
                 {
                     MessageBox.Show(e.Message);
                 }
@@ -187,6 +183,10 @@ namespace ProiectIP_interfata
             UpdateSeatingLabels();
         }
 
+        /// <summary>
+        /// Scrie locurile ocupate in fisier
+        /// </summary>
+        /// <param name="flightIndex"></param>
         private void WriteSeatingPlanToBD(string flightIndex)
         {
             string fileName = @"..\..\Resources\takenSeats.txt";
@@ -198,6 +198,9 @@ namespace ProiectIP_interfata
             File.WriteAllLines(fileName, lines);
         }
 
+        /// <summary>
+        /// Citeste locurile ocupate din fisier
+        /// </summary>
         private void ReadSeatingPlanFromBD()
         {
             string fileName = @"..\..\Resources\takenSeats.txt";
@@ -205,27 +208,11 @@ namespace ProiectIP_interfata
             var lines = System.IO.File.ReadAllLines(fileName);
             int count = _indexZbor - 1;
             seatingPlan = lines[count];
-
-            //MessageBox.Show(seatingPlan);
-            //File.WriteAllLines(fileName, lines);
         }
 
-        private void ReadSeatPickArgs()
-        {
-            string fileName = @"..\..\Resources\SeatPickArgs.txt";
-
-            string lines = File.ReadAllText(fileName);
-
-            _indexZbor = Convert.ToInt32(lines.Split(' ')[0]);
-
-            _pretZbor = Convert.ToInt32(lines.Split(' ')[1]);
-
-            //MessageBox.Show(_indexZbor.ToString());
-
-
-            //MessageBox.Show(_pretZbor.ToString());
-        }
-
+        /// <summary>
+        /// Actualizeaza Labelurile pentru preturi
+        /// </summary>
         private void UpdatePriceLabels()
         {
             economyClassPrice = _pretZbor;
@@ -237,26 +224,36 @@ namespace ProiectIP_interfata
             labelEconomyClass.Text = economyClassPrice.ToString();
         }
 
+        /// <summary>
+        /// Actualizeaza Labelurile pentru nr de locuri selectate si pretul total al biletelor selectate
+        /// </summary>
         private void UpdateSeatingLabels()
         {
             int nrOfSeats = seatsByClass[0] + seatsByClass[1] + seatsByClass[2];
             int totalPrice = 0;
 
-            label_selectedSeats.Text = nrOfSeats.ToString();
+            labelSelectedSeats.Text = nrOfSeats.ToString();
 
             totalPrice = seatsByClass[0] * firstClassPrice + seatsByClass[1] * businessClassPrice + seatsByClass[2] * economyClassPrice;
 
-            label_seatPrice.Text = totalPrice.ToString();
+            labelSeatPrice.Text = totalPrice.ToString();
         }
+        #endregion
 
-        private void ContentSeatPick_Paint(object sender, PaintEventArgs e)
+        #region Constructors
+        /// <summary>
+        /// Constructor parametrizat
+        /// </summary>
+        /// <param name="indexZbor">ID ul zborului</param>
+        /// <param name="pretZbor">pretul biletului</param>
+        /// <param name="conn">conexiune MySQL</param>
+        public SeatPickControl(int indexZbor, int pretZbor , MySqlConnection conn)
         {
+            _conn = conn;
+            _indexZbor = indexZbor;
+            _pretZbor = pretZbor;
 
-        }
-
-        private void buttonTest_Click(object sender, EventArgs e)
-        {
-            ReadSeatPickArgs();
+            InitializeComponent();
 
             ReadSeatingPlanFromBD();
 
@@ -264,10 +261,6 @@ namespace ProiectIP_interfata
 
             UpdatePriceLabels();
         }
-
-        private void label_selectedSeats_Click(object sender, EventArgs e)
-        {
-
-        }
+        #endregion
     }
 }

@@ -70,7 +70,7 @@
             this.button_logout.TabIndex = 2;
             this.button_logout.Text = "Log out";
             this.button_logout.UseVisualStyleBackColor = false;
-            this.button_logout.Click += new System.EventHandler(this.button_logout_Click);
+            this.button_logout.Click += new System.EventHandler(this.buttonLogout_Click);
             // 
             // button_reservation
             // 
@@ -82,7 +82,7 @@
             this.button_reservation.TabIndex = 3;
             this.button_reservation.Text = "Rezervă un zbor";
             this.button_reservation.UseVisualStyleBackColor = false;
-            this.button_reservation.Click += new System.EventHandler(this.button_reservation_Click);
+            this.button_reservation.Click += new System.EventHandler(this.buttonReservation_Click);
             // 
             // pictureBox1
             // 

@@ -13,33 +13,42 @@ namespace ProiectIP_interfata
 {
     public partial class FinalDetailsControl : UserControl
     {
+        #region Private Properties
         private MySqlConnection _conn;
-        public FinalDetailsControl(string numarLocuri, string pret, string destinatie, string data, MySqlConnection conn)
-        {
-            InitializeComponent();
+        #endregion
 
-            label_finalSelectedSeats.Text = numarLocuri;
-            label_finalSelectedPrice.Text = pret;
-            label_finalDestination.Text = destinatie;
-            label_finalSelectedDate.Text = data;
-            _conn = conn;
-
-        }
-
-        private void ContentFinalDetails_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button_finalReservation_Click(object sender, EventArgs e)
+        #region Private Methods
+        /// <summary>
+        /// Schimba Panelul catre cel de Welcome
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void buttonFinalReservation_Click(object sender, EventArgs e)
         {
             WelcomeControl welcomeControl = new WelcomeControl(_conn);
             MainControl.showControl(welcomeControl, ContentFinalDetails);
         }
+        #endregion
 
-        private void label_finalSelectedSeats_Click(object sender, EventArgs e)
+        #region Constructors
+        /// <summary>
+        /// Constructor cu parametrii
+        /// </summary>
+        /// <param name="numarLocuri">locuri disponibile in avion</param>
+        /// <param name="pret">pret bilet</param>
+        /// <param name="destinatie">orasul destinatie</param>
+        /// <param name="data">data zborului</param>
+        /// <param name="conn">conexiune MySql</param>
+        public FinalDetailsControl(string numarLocuri, string pret, string destinatie, string data, MySqlConnection conn)
         {
+            InitializeComponent();
 
+            labelFinalSelectedSeats.Text = numarLocuri;
+            labelFinalSelectedPrice.Text = pret;
+            labelFinalDestination.Text = destinatie;
+            labelFinalSelectedDate.Text = data;
+            _conn = conn;
         }
+        #endregion        
     }
 }

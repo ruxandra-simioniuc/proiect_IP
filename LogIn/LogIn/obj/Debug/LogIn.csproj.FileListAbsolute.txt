@@ -72,3 +72,24 @@ D:\GITHUB\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CopyComplete
 D:\GITHUB\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.dll
 D:\GITHUB\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.pdb
 D:\GITHUB\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csprojAssemblyReference.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\LogIn.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\LogIn.pdb
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\MySql.Data.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\Google.Protobuf.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\Zstandard.Net.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\Renci.SshNet.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\System.Buffers.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\System.Memory.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\bin\Debug\MySql.Data.xml
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csprojAssemblyReference.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CoreCompileInputs.cache
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CopyComplete
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.dll
+C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.pdb

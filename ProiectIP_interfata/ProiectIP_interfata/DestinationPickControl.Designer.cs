@@ -28,107 +28,116 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox_destination = new System.Windows.Forms.ComboBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.button_findFlight = new System.Windows.Forms.Button();
+            this.comboBoxDestination = new System.Windows.Forms.ComboBox();
+            this.labelDestination = new System.Windows.Forms.Label();
+            this.buttonFindFlight = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.monthCalendar_flightTime = new System.Windows.Forms.MonthCalendar();
-            this.label6 = new System.Windows.Forms.Label();
+            this.monthCalendarFlightTime = new System.Windows.Forms.MonthCalendar();
+            this.labelData = new System.Windows.Forms.Label();
             this.ContentDestinationPick = new System.Windows.Forms.Panel();
-            this.label_info = new System.Windows.Forms.Label();
+            this.labelInfo = new System.Windows.Forms.Label();
             this.ContentDestinationPick.SuspendLayout();
             this.SuspendLayout();
             // 
-            // comboBox_destination
+            // comboBoxDestination
             // 
-            this.comboBox_destination.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.comboBox_destination.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox_destination.FormattingEnabled = true;
-            this.comboBox_destination.Location = new System.Drawing.Point(797, 378);
-            this.comboBox_destination.Name = "comboBox_destination";
-            this.comboBox_destination.Size = new System.Drawing.Size(356, 54);
-            this.comboBox_destination.TabIndex = 1;
+            this.comboBoxDestination.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.comboBoxDestination.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxDestination.FormattingEnabled = true;
+            this.comboBoxDestination.Location = new System.Drawing.Point(531, 246);
+            this.comboBoxDestination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBoxDestination.Name = "comboBoxDestination";
+            this.comboBoxDestination.Size = new System.Drawing.Size(239, 39);
+            this.comboBoxDestination.TabIndex = 1;
             // 
-            // label2
+            // labelDestination
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(872, 317);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(197, 46);
-            this.label2.TabIndex = 5;
-            this.label2.Text = "Destinație";
+            this.labelDestination.AutoSize = true;
+            this.labelDestination.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelDestination.Location = new System.Drawing.Point(581, 206);
+            this.labelDestination.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelDestination.Name = "labelDestination";
+            this.labelDestination.Size = new System.Drawing.Size(136, 31);
+            this.labelDestination.TabIndex = 5;
+            this.labelDestination.Text = "Destinație";
             // 
-            // button_findFlight
+            // buttonFindFlight
             // 
-            this.button_findFlight.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button_findFlight.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_findFlight.Location = new System.Drawing.Point(521, 662);
-            this.button_findFlight.Name = "button_findFlight";
-            this.button_findFlight.Size = new System.Drawing.Size(340, 77);
-            this.button_findFlight.TabIndex = 8;
-            this.button_findFlight.Text = "Caută zbor";
-            this.button_findFlight.UseVisualStyleBackColor = false;
-            this.button_findFlight.Click += new System.EventHandler(this.button_findFlight_Click);
+            this.buttonFindFlight.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonFindFlight.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFindFlight.Location = new System.Drawing.Point(347, 430);
+            this.buttonFindFlight.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonFindFlight.Name = "buttonFindFlight";
+            this.buttonFindFlight.Size = new System.Drawing.Size(227, 50);
+            this.buttonFindFlight.TabIndex = 8;
+            this.buttonFindFlight.Text = "Caută zbor";
+            this.buttonFindFlight.UseVisualStyleBackColor = false;
+            this.buttonFindFlight.Click += new System.EventHandler(this.buttonFindFlight_Click);
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1000, 554);
+            this.button1.Location = new System.Drawing.Point(667, 360);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(8, 8);
+            this.button1.Size = new System.Drawing.Size(5, 5);
             this.button1.TabIndex = 9;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
             // 
-            // monthCalendar_flightTime
+            // monthCalendarFlightTime
             // 
-            this.monthCalendar_flightTime.BackColor = System.Drawing.SystemColors.Window;
-            this.monthCalendar_flightTime.Location = new System.Drawing.Point(137, 264);
-            this.monthCalendar_flightTime.Name = "monthCalendar_flightTime";
-            this.monthCalendar_flightTime.TabIndex = 12;
-            this.monthCalendar_flightTime.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendar_flightTime_DateChanged);
+            this.monthCalendarFlightTime.BackColor = System.Drawing.SystemColors.Window;
+            this.monthCalendarFlightTime.Location = new System.Drawing.Point(91, 172);
+            this.monthCalendarFlightTime.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.monthCalendarFlightTime.Name = "monthCalendarFlightTime";
+            this.monthCalendarFlightTime.TabIndex = 12;
+            this.monthCalendarFlightTime.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.monthCalendarFlightTime_DateChanged);
             // 
-            // label6
+            // labelData
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(251, 209);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 46);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Data";
+            this.labelData.AutoSize = true;
+            this.labelData.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelData.Location = new System.Drawing.Point(167, 136);
+            this.labelData.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelData.Name = "labelData";
+            this.labelData.Size = new System.Drawing.Size(72, 31);
+            this.labelData.TabIndex = 13;
+            this.labelData.Text = "Data";
             // 
             // ContentDestinationPick
             // 
-            this.ContentDestinationPick.Controls.Add(this.label_info);
-            this.ContentDestinationPick.Controls.Add(this.label6);
-            this.ContentDestinationPick.Controls.Add(this.monthCalendar_flightTime);
+            this.ContentDestinationPick.Controls.Add(this.labelInfo);
+            this.ContentDestinationPick.Controls.Add(this.labelData);
+            this.ContentDestinationPick.Controls.Add(this.monthCalendarFlightTime);
             this.ContentDestinationPick.Controls.Add(this.button1);
-            this.ContentDestinationPick.Controls.Add(this.button_findFlight);
-            this.ContentDestinationPick.Controls.Add(this.label2);
-            this.ContentDestinationPick.Controls.Add(this.comboBox_destination);
+            this.ContentDestinationPick.Controls.Add(this.buttonFindFlight);
+            this.ContentDestinationPick.Controls.Add(this.labelDestination);
+            this.ContentDestinationPick.Controls.Add(this.comboBoxDestination);
             this.ContentDestinationPick.Location = new System.Drawing.Point(0, 0);
+            this.ContentDestinationPick.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ContentDestinationPick.Name = "ContentDestinationPick";
-            this.ContentDestinationPick.Size = new System.Drawing.Size(1363, 890);
+            this.ContentDestinationPick.Size = new System.Drawing.Size(909, 578);
             this.ContentDestinationPick.TabIndex = 14;
             // 
-            // label_info
+            // labelInfo
             // 
-            this.label_info.AutoSize = true;
-            this.label_info.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_info.Location = new System.Drawing.Point(327, 80);
-            this.label_info.Name = "label_info";
-            this.label_info.Size = new System.Drawing.Size(681, 46);
-            this.label_info.TabIndex = 14;
-            this.label_info.Text = "Alegeți data călătoriei, apoi destinația";
+            this.labelInfo.AutoSize = true;
+            this.labelInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelInfo.Location = new System.Drawing.Point(218, 52);
+            this.labelInfo.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelInfo.Name = "labelInfo";
+            this.labelInfo.Size = new System.Drawing.Size(463, 31);
+            this.labelInfo.TabIndex = 14;
+            this.labelInfo.Text = "Alegeți data călătoriei, apoi destinația";
             // 
             // DestinationPickControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.ContentDestinationPick);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DestinationPickControl";
-            this.Size = new System.Drawing.Size(1363, 890);
+            this.Size = new System.Drawing.Size(909, 578);
             this.ContentDestinationPick.ResumeLayout(false);
             this.ContentDestinationPick.PerformLayout();
             this.ResumeLayout(false);
@@ -136,13 +145,13 @@
         }
 
         #endregion
-        private System.Windows.Forms.ComboBox comboBox_destination;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button_findFlight;
+        private System.Windows.Forms.ComboBox comboBoxDestination;
+        private System.Windows.Forms.Label labelDestination;
+        private System.Windows.Forms.Button buttonFindFlight;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MonthCalendar monthCalendar_flightTime;
-        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.MonthCalendar monthCalendarFlightTime;
+        private System.Windows.Forms.Label labelData;
         private System.Windows.Forms.Panel ContentDestinationPick;
-        private System.Windows.Forms.Label label_info;
+        private System.Windows.Forms.Label labelInfo;
     }
 }
