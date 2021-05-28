@@ -147,16 +147,19 @@ namespace ProiectIP_interfata
 
             for (int i = 1; i < takenSeats.Length; i++)
             {
+               
                 try
                 {
-                    Button btn = (Button)ContentSeatPick.Controls["button_" + takenSeats[i]];
+                    if (takenSeats[i].Length > 1) {
+                        Button btn = (Button)ContentSeatPick.Controls["button_" + takenSeats[i]];
 
-                    btn.BackColor = Color.DarkSlateGray;
-                    btn.Enabled = false;
+                        btn.BackColor = Color.DarkSlateGray;
+                        btn.Enabled = false;
+                    }
                 }
                 catch(Exception e)
                 {
-                    MessageBox.Show(i.ToString());
+                    MessageBox.Show("index.err = " + i.ToString());
                 }
             }
 
@@ -165,7 +168,7 @@ namespace ProiectIP_interfata
 
         private void WriteSeatingPlanToBD(string flightIndex)
         {
-            string fileName = @"..\..\Resources\seatingPlanFile.txt";
+            string fileName = @"..\..\Resources\takenSeats.txt";
 
             var lines = System.IO.File.ReadAllLines(fileName);
             int count = Convert.ToInt32(flightIndex) - 1;
@@ -176,7 +179,7 @@ namespace ProiectIP_interfata
 
         private void ReadSeatingPlanFromBD()
         {
-            string fileName = @"..\..\Resources\seatingPlanFile.txt";
+            string fileName = @"..\..\Resources\takenSeats.txt";
 
             var lines = System.IO.File.ReadAllLines(fileName);
             int count = _indexZbor - 1;
