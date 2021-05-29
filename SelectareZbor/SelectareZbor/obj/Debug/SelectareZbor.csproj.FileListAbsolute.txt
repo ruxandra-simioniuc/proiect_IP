@@ -93,3 +93,23 @@ C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\Sel
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.csproj.CopyComplete
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.dll
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.pdb
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\SelectareZbor.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\SelectareZbor.pdb
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\MySql.Data.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\Google.Protobuf.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\Zstandard.Net.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\BouncyCastle.Crypto.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\Ubiety.Dns.Core.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\System.Memory.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\System.Buffers.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\K4os.Compression.LZ4.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\K4os.Hash.xxHash.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\System.Numerics.Vectors.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\MySql.Data.xml
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.csprojAssemblyReference.cache
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.csproj.CoreCompileInputs.cache
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.csproj.CopyComplete
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.dll
+D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.pdb

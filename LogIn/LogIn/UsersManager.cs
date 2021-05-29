@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 namespace LogIn
 {
     /// <summary>
-    /// 
+    /// Clasa ce verifica autentificarile si logarile clientilor in baza de date
     /// </summary>
     public class UsersManager
     {
@@ -80,11 +80,12 @@ namespace LogIn
                 }
                 else
                 {
-                    int a = Int32.Parse(rdr[0].ToString());
+                    int id_utilizator = Int32.Parse(rdr[0].ToString());
                     cmd.Dispose();
                     _conn.Close();
-                    return a;
+                    return id_utilizator;
                 }
+            
             }catch(Exception e)
             {
                 return -2;
