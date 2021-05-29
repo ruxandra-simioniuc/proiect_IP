@@ -35,7 +35,15 @@ namespace ProiectIP_interfata
             {
                 if (id == -1)
                 {
+                    textBoxLoginEmail.Text = "";
+                    textBoxLoginPassword.Text = "";
                     MessageBox.Show("Date invalide");
+                }
+                else if(id == -2)
+                {
+                    textBoxLoginEmail.Text = "";
+                    textBoxLoginPassword.Text = "";
+                    MessageBox.Show("Eroare. Nu s-a putut realiza conexiunea la baza de date.");
                 }
                 else
                 {
@@ -61,19 +69,40 @@ namespace ProiectIP_interfata
             string parola = textBoxSignUpPassword.Text;
             string verificareParola = textBoxSignUpPasswordRepeat.Text;
 
-            try
+           
+            if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola) == 1)
             {
-                if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola))
-                {
-                    MessageBox.Show("V-ati inregistrat cu succes!");
-                }
-                else
-                {
-                    MessageBox.Show("Eroare!");
-                }
-            }catch(Exception ex)
+                MessageBox.Show("V-ati inregistrat cu succes!");
+                textBoxSignUpEmail.Text = "";
+                textBoxSignUpName.Text = "";
+                textBoxSignUpPassword.Text = "";
+                textBoxSignUpPasswordRepeat.Text = "";
+                textBoxSignUpSurname.Text = "";
+
+            }
+            else if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola) == -1)
             {
-                MessageBox.Show(ex.Message);
+                textBoxSignUpEmail.Text = "";
+                textBoxSignUpName.Text = "";
+                textBoxSignUpPassword.Text = "";
+                textBoxSignUpPasswordRepeat.Text = "";
+                textBoxSignUpSurname.Text = "";
+                MessageBox.Show("Date invalide!");
+            }
+            else if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola) == -2)
+            {
+
+                MessageBox.Show("Eroare. Nu s-a putut realiza conexiunea la baza de date.");
+            }
+            else
+            {
+                textBoxSignUpEmail.Text = "";
+                textBoxSignUpName.Text = "";
+                textBoxSignUpPassword.Text = "";
+                textBoxSignUpPasswordRepeat.Text = "";
+                textBoxSignUpSurname.Text = "";
+                MessageBox.Show("Exista deja un utilizator cu acest mail");
+
             }
         }
         #endregion
@@ -84,21 +113,20 @@ namespace ProiectIP_interfata
         /// </summary>
         public UserPickControl()
         {
+
             string myConStr;
             try
             {
-                 myConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=p";
+                myConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
                 _conn = new MySqlConnection(myConStr);
                 _usersManager = new UsersManager(_conn);
                 InitializeComponent();
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 MessageBox.Show(e.Message);
             }
 
-           
-           
         }
         #endregion
     }
