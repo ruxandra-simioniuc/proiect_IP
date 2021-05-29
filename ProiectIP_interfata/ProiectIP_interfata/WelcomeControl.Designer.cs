@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.label_welcome = new System.Windows.Forms.Label();
-            this.label_name = new System.Windows.Forms.Label();
-            this.button_logout = new System.Windows.Forms.Button();
-            this.button_reservation = new System.Windows.Forms.Button();
+            this.labelName = new System.Windows.Forms.Label();
+            this.buttonLogout = new System.Windows.Forms.Button();
+            this.buttonReservation = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.WelcomeContent = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.WelcomeContent.SuspendLayout();
             this.SuspendLayout();
@@ -50,39 +50,39 @@
             this.label_welcome.TabIndex = 0;
             this.label_welcome.Text = "Bine ai venit,";
             // 
-            // label_name
+            // labelName
             // 
-            this.label_name.AutoSize = true;
-            this.label_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_name.Location = new System.Drawing.Point(657, 99);
-            this.label_name.Name = "label_name";
-            this.label_name.Size = new System.Drawing.Size(166, 55);
-            this.label_name.TabIndex = 1;
-            this.label_name.Text = "NUME";
+            this.labelName.AutoSize = true;
+            this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelName.Location = new System.Drawing.Point(657, 99);
+            this.labelName.Name = "labelName";
+            this.labelName.Size = new System.Drawing.Size(166, 55);
+            this.labelName.TabIndex = 1;
+            this.labelName.Text = "NUME";
             // 
-            // button_logout
+            // buttonLogout
             // 
-            this.button_logout.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button_logout.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_logout.Location = new System.Drawing.Point(50, 711);
-            this.button_logout.Name = "button_logout";
-            this.button_logout.Size = new System.Drawing.Size(187, 90);
-            this.button_logout.TabIndex = 2;
-            this.button_logout.Text = "Log out";
-            this.button_logout.UseVisualStyleBackColor = false;
-            this.button_logout.Click += new System.EventHandler(this.buttonLogout_Click);
+            this.buttonLogout.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonLogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLogout.Location = new System.Drawing.Point(50, 711);
+            this.buttonLogout.Name = "buttonLogout";
+            this.buttonLogout.Size = new System.Drawing.Size(187, 90);
+            this.buttonLogout.TabIndex = 2;
+            this.buttonLogout.Text = "Log out";
+            this.buttonLogout.UseVisualStyleBackColor = false;
+            this.buttonLogout.Click += new System.EventHandler(this.buttonLogout_Click);
             // 
-            // button_reservation
+            // buttonReservation
             // 
-            this.button_reservation.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.button_reservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_reservation.Location = new System.Drawing.Point(981, 711);
-            this.button_reservation.Name = "button_reservation";
-            this.button_reservation.Size = new System.Drawing.Size(288, 90);
-            this.button_reservation.TabIndex = 3;
-            this.button_reservation.Text = "Rezervă un zbor";
-            this.button_reservation.UseVisualStyleBackColor = false;
-            this.button_reservation.Click += new System.EventHandler(this.buttonReservation_Click);
+            this.buttonReservation.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.buttonReservation.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonReservation.Location = new System.Drawing.Point(981, 711);
+            this.buttonReservation.Name = "buttonReservation";
+            this.buttonReservation.Size = new System.Drawing.Size(288, 90);
+            this.buttonReservation.TabIndex = 3;
+            this.buttonReservation.Text = "Rezervă un zbor";
+            this.buttonReservation.UseVisualStyleBackColor = false;
+            this.buttonReservation.Click += new System.EventHandler(this.buttonReservation_Click);
             // 
             // pictureBox1
             // 
@@ -98,24 +98,14 @@
             this.WelcomeContent.Controls.Add(this.label2);
             this.WelcomeContent.Controls.Add(this.label1);
             this.WelcomeContent.Controls.Add(this.pictureBox1);
-            this.WelcomeContent.Controls.Add(this.button_reservation);
-            this.WelcomeContent.Controls.Add(this.button_logout);
-            this.WelcomeContent.Controls.Add(this.label_name);
+            this.WelcomeContent.Controls.Add(this.buttonReservation);
+            this.WelcomeContent.Controls.Add(this.buttonLogout);
+            this.WelcomeContent.Controls.Add(this.labelName);
             this.WelcomeContent.Controls.Add(this.label_welcome);
             this.WelcomeContent.Location = new System.Drawing.Point(3, 1);
             this.WelcomeContent.Name = "WelcomeContent";
             this.WelcomeContent.Size = new System.Drawing.Size(1352, 896);
             this.WelcomeContent.TabIndex = 5;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(215, 510);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(855, 55);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Apasă pe \'Rezervă un zbor\' pentru a-ți ";
             // 
             // label2
             // 
@@ -126,6 +116,16 @@
             this.label2.Size = new System.Drawing.Size(484, 55);
             this.label2.TabIndex = 6;
             this.label2.Text = "selecta zborul din Iași";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(215, 510);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(855, 55);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "Apasă pe \'Rezervă un zbor\' pentru a-ți ";
             // 
             // WelcomeControl
             // 
@@ -144,9 +144,9 @@
         #endregion
 
         private System.Windows.Forms.Label label_welcome;
-        private System.Windows.Forms.Label label_name;
-        private System.Windows.Forms.Button button_logout;
-        private System.Windows.Forms.Button button_reservation;
+        private System.Windows.Forms.Label labelName;
+        private System.Windows.Forms.Button buttonLogout;
+        private System.Windows.Forms.Button buttonReservation;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel WelcomeContent;
         private System.Windows.Forms.Label label1;

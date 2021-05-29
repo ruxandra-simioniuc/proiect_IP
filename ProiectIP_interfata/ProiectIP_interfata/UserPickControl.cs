@@ -31,14 +31,20 @@ namespace ProiectIP_interfata
             string parola = textBoxLoginPassword.Text;
             int id = _usersManager.Logare(mail, parola);
 
-            if (id == -1)
+            try
             {
-                MessageBox.Show("Date invalide");
-            }
-            else
+                if (id == -1)
+                {
+                    MessageBox.Show("Date invalide");
+                }
+                else
+                {
+                    WelcomeControl welcomeControl = new WelcomeControl(_conn);
+                    MainControl.showControl(welcomeControl, UserPickContent);
+                }
+            }catch(Exception ex)
             {
-                WelcomeControl welcomeControl = new WelcomeControl(_conn);
-                MainControl.showControl(welcomeControl, UserPickContent);
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -53,15 +59,21 @@ namespace ProiectIP_interfata
             string prenume = textBoxSignUpSurname.Text;
             string mail = textBoxSignUpEmail.Text;
             string parola = textBoxSignUpPassword.Text;
-            string verificareParola = textBoSignUpPasswordRepeat.Text;
+            string verificareParola = textBoxSignUpPasswordRepeat.Text;
 
-            if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola))
+            try
             {
-                MessageBox.Show("V-ati inregistrat cu succes!");
-            }
-            else
+                if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola))
+                {
+                    MessageBox.Show("V-ati inregistrat cu succes!");
+                }
+                else
+                {
+                    MessageBox.Show("Eroare!");
+                }
+            }catch(Exception ex)
             {
-                MessageBox.Show("Eroare!");
+                MessageBox.Show(ex.Message);
             }
         }
         #endregion
@@ -72,11 +84,21 @@ namespace ProiectIP_interfata
         /// </summary>
         public UserPickControl()
         {
-            string myConStr = "Server=localhost;Database=proiect_ip;uid=claudiu;pwd=pass_1234";
+            string myConStr;
+            try
+            {
+                 myConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=p";
+                _conn = new MySqlConnection(myConStr);
+                _usersManager = new UsersManager(_conn);
+                InitializeComponent();
+            }
+            catch(Exception e)
+            {
+                MessageBox.Show(e.Message);
+            }
 
-            _conn = new MySqlConnection(myConStr);
-            _usersManager = new UsersManager(_conn);
-            InitializeComponent();
+           
+           
         }
         #endregion
     }

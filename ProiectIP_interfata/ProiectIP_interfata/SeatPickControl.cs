@@ -236,7 +236,7 @@ namespace ProiectIP_interfata
 
             totalPrice = seatsByClass[0] * firstClassPrice + seatsByClass[1] * businessClassPrice + seatsByClass[2] * economyClassPrice;
 
-            labelSeatPrice.Text = totalPrice.ToString();
+            labelSeatPrice.Text = totalPrice.ToString() + " €";
         }
         #endregion
 
