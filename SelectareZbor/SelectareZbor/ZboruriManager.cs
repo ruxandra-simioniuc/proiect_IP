@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        ZboruriManager.cs                                        *
+ *  Autor:       Teodor Colipca                                           *         
+ *  Functionalitate:  Preia informatii despre zboruri din baza de date    *
+ *                                                                        *    
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

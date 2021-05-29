@@ -1,4 +1,15 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        MainControl.cs                                           *
+ *  Autor:       Ruxandra Simioniuc                                       *         
+ *  Functionalitate:          *
+ *  *
+ *                                                                        *    
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,15 +21,20 @@ namespace ProiectIP_interfata
     class MainControl
     {
         #region Public Methods
-        public static void showControl(Control control, Control Content)
+        /// <summary>
+        /// Metoda schimba continutul panel-ului curent cu cel al urmatorului 
+        /// </summary>
+        /// <param name="control"></param>
+        /// <param name="Content"></param>
+        public static void showControl(Control newContent, Control currentContent)
         {
-            Content.Controls.Clear();
+            currentContent.Controls.Clear();
 
-            control.Dock = DockStyle.Fill;
-            control.BringToFront();
-            control.Focus();
+            newContent.Dock = DockStyle.Fill;
+            newContent.BringToFront();
+            newContent.Focus();
 
-            Content.Controls.Add(control);
+            currentContent.Controls.Add(newContent);
         }
         #endregion
     }

@@ -1,4 +1,15 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        UsersManager.cs                                          *
+ *  Autor:       Teodor Colipca                                           *         
+ *  Functionalitate:  Realizeaza autentificarea si inregistrarea unui     *
+ *  nou utilizator in baza de date                                        *
+ *                                                                        *    
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;

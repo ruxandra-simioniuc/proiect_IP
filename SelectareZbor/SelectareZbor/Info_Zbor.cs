@@ -1,4 +1,14 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Info_Zbor.cs                                             *
+ *  Autor:       Teodor Colipca                                           *         
+ *  Functionalitate:  Retine informatiile despre un anumit zbor           *
+ *                                                                        *    
+ *                                                                        *
+ **************************************************************************/
+
+
+using System;
 
 namespace SelectareZbor
 {

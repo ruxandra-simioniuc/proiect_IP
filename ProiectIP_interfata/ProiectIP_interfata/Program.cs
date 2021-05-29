@@ -50,6 +50,7 @@ namespace ProiectIP_interfata
         {
             Singleton singleton = Singleton.Instance();
             Singleton singleton2 = Singleton.Instance();
+
         }
     }
 }
