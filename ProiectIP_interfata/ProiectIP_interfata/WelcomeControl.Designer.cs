@@ -29,14 +29,13 @@
         private void InitializeComponent()
         {
             this.label_welcome = new System.Windows.Forms.Label();
-            this.labelName = new System.Windows.Forms.Label();
             this.buttonLogout = new System.Windows.Forms.Button();
             this.buttonReservation = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.WelcomeContent = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.labelWelcomeText2 = new System.Windows.Forms.Label();
+            this.labelWelcomeText1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.WelcomeContent.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,21 +43,11 @@
             // 
             this.label_welcome.AutoSize = true;
             this.label_welcome.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_welcome.Location = new System.Drawing.Point(364, 99);
+            this.label_welcome.Location = new System.Drawing.Point(484, 101);
             this.label_welcome.Name = "label_welcome";
             this.label_welcome.Size = new System.Drawing.Size(297, 55);
             this.label_welcome.TabIndex = 0;
-            this.label_welcome.Text = "Bine ai venit,";
-            // 
-            // labelName
-            // 
-            this.labelName.AutoSize = true;
-            this.labelName.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelName.Location = new System.Drawing.Point(657, 99);
-            this.labelName.Name = "labelName";
-            this.labelName.Size = new System.Drawing.Size(166, 55);
-            this.labelName.TabIndex = 1;
-            this.labelName.Text = "NUME";
+            this.label_welcome.Text = "Bine ai venit!";
             // 
             // buttonLogout
             // 
@@ -84,48 +73,47 @@
             this.buttonReservation.UseVisualStyleBackColor = false;
             this.buttonReservation.Click += new System.EventHandler(this.buttonReservation_Click);
             // 
-            // pictureBox1
+            // pictureBoxLogo
             // 
-            this.pictureBox1.Image = global::ProiectIP_interfata.Properties.Resources.airplane128;
-            this.pictureBox1.Location = new System.Drawing.Point(510, 260);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(205, 222);
-            this.pictureBox1.TabIndex = 4;
-            this.pictureBox1.TabStop = false;
+            this.pictureBoxLogo.Image = global::ProiectIP_interfata.Properties.Resources.airplane128;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(510, 260);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(205, 222);
+            this.pictureBoxLogo.TabIndex = 4;
+            this.pictureBoxLogo.TabStop = false;
             // 
             // WelcomeContent
             // 
-            this.WelcomeContent.Controls.Add(this.label2);
-            this.WelcomeContent.Controls.Add(this.label1);
-            this.WelcomeContent.Controls.Add(this.pictureBox1);
+            this.WelcomeContent.Controls.Add(this.labelWelcomeText2);
+            this.WelcomeContent.Controls.Add(this.labelWelcomeText1);
+            this.WelcomeContent.Controls.Add(this.pictureBoxLogo);
             this.WelcomeContent.Controls.Add(this.buttonReservation);
             this.WelcomeContent.Controls.Add(this.buttonLogout);
-            this.WelcomeContent.Controls.Add(this.labelName);
             this.WelcomeContent.Controls.Add(this.label_welcome);
             this.WelcomeContent.Location = new System.Drawing.Point(3, 1);
             this.WelcomeContent.Name = "WelcomeContent";
             this.WelcomeContent.Size = new System.Drawing.Size(1352, 896);
             this.WelcomeContent.TabIndex = 5;
             // 
-            // label2
+            // labelWelcomeText2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(395, 580);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(484, 55);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "selecta zborul din Iași";
+            this.labelWelcomeText2.AutoSize = true;
+            this.labelWelcomeText2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWelcomeText2.Location = new System.Drawing.Point(395, 580);
+            this.labelWelcomeText2.Name = "labelWelcomeText2";
+            this.labelWelcomeText2.Size = new System.Drawing.Size(484, 55);
+            this.labelWelcomeText2.TabIndex = 6;
+            this.labelWelcomeText2.Text = "selecta zborul din Iași";
             // 
-            // label1
+            // labelWelcomeText1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(215, 510);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(855, 55);
-            this.label1.TabIndex = 5;
-            this.label1.Text = "Apasă pe \'Rezervă un zbor\' pentru a-ți ";
+            this.labelWelcomeText1.AutoSize = true;
+            this.labelWelcomeText1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelWelcomeText1.Location = new System.Drawing.Point(215, 510);
+            this.labelWelcomeText1.Name = "labelWelcomeText1";
+            this.labelWelcomeText1.Size = new System.Drawing.Size(855, 55);
+            this.labelWelcomeText1.TabIndex = 5;
+            this.labelWelcomeText1.Text = "Apasă pe \'Rezervă un zbor\' pentru a-ți ";
             // 
             // WelcomeControl
             // 
@@ -134,7 +122,7 @@
             this.Controls.Add(this.WelcomeContent);
             this.Name = "WelcomeControl";
             this.Size = new System.Drawing.Size(1356, 898);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.WelcomeContent.ResumeLayout(false);
             this.WelcomeContent.PerformLayout();
             this.ResumeLayout(false);
@@ -144,12 +132,11 @@
         #endregion
 
         private System.Windows.Forms.Label label_welcome;
-        private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Button buttonLogout;
         private System.Windows.Forms.Button buttonReservation;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.Panel WelcomeContent;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelWelcomeText1;
+        private System.Windows.Forms.Label labelWelcomeText2;
     }
 }

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using SelectareZbor;
+using System.Security.Cryptography;
 
 namespace ProiectIP_interfata
 {
@@ -35,7 +36,17 @@ namespace ProiectIP_interfata
             string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
             //MessageBox.Show(format_data);
             List<String> destinatii = _zborManager.GetDestinationBasedOnDate(format_data);
-            comboBoxDestination.DataSource = destinatii;
+            if(destinatii.Count > 0)
+            {
+                comboBoxDestination.DataSource = destinatii;
+            }
+            else
+            {
+                comboBoxDestination.DataSource = null;
+                comboBoxDestination.Items.Clear();
+                comboBoxDestination.ResetText();
+            }
+            
 
         }
 
@@ -55,7 +66,14 @@ namespace ProiectIP_interfata
                 string formatData = bucati[1] + "." + bucati[0] + "." + bucati[2];
                 string destinatie = comboBoxDestination.SelectedValue.ToString();
 
+                
                 _zboruri = _zborManager.GetFlights(destinatie, formatData);
+
+                if(_zboruri == null)
+                {
+                    MessageBox.Show("Eroare la conectarea la baza de date.");
+                }
+
                 FlightPickControl flightPickControl = new FlightPickControl(_conn, _zboruri);
                 MainControl.showControl(flightPickControl, ContentDestinationPick);
             }
@@ -86,6 +104,7 @@ namespace ProiectIP_interfata
             dataAleasa = zi + "." + luna + "." + an;
             
             destinatii = _zborManager.GetDestinationBasedOnDate(dataAleasa);
+
 
             InitializeComponent();
             comboBoxDestination.DataSource = destinatii;

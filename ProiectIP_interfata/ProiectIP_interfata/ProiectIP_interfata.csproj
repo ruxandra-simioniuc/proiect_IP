@@ -77,11 +77,11 @@
     <Compile Include="FlightPickControl.Designer.cs">
       <DependentUpon>FlightPickControl.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Form_RezervareBilete.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Form_RezervareBilete.Designer.cs">
+      <DependentUpon>Form_RezervareBilete.cs</DependentUpon>
     </Compile>
     <Compile Include="MainControl.cs" />
     <Compile Include="Program.cs" />
@@ -113,8 +113,8 @@
     <EmbeddedResource Include="FlightPickControl.resx">
       <DependentUpon>FlightPickControl.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Form_RezervareBilete.resx">
+      <DependentUpon>Form_RezervareBilete.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

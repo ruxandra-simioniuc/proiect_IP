@@ -18,7 +18,7 @@ namespace ProiectIP_interfata
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Form_RezervareBilete());
         }
         #endregion
 

@@ -35,15 +35,15 @@
             this.textBoxSignUpPassword = new System.Windows.Forms.TextBox();
             this.textBoxSignUpEmail = new System.Windows.Forms.TextBox();
             this.textBoxSignUpPasswordRepeat = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.labelLogin = new System.Windows.Forms.Label();
+            this.labelSignup = new System.Windows.Forms.Label();
+            this.labelLoginEmail = new System.Windows.Forms.Label();
+            this.labelLoginPassword = new System.Windows.Forms.Label();
+            this.labelSignupSurname = new System.Windows.Forms.Label();
+            this.labelSignupName = new System.Windows.Forms.Label();
+            this.labelSignupEmail = new System.Windows.Forms.Label();
+            this.labelSignupPass = new System.Windows.Forms.Label();
+            this.labelSignupPassRepeat = new System.Windows.Forms.Label();
             this.buttonLogin = new System.Windows.Forms.Button();
             this.buttonSignup = new System.Windows.Forms.Button();
             this.UserPickContent = new System.Windows.Forms.Panel();
@@ -116,95 +116,95 @@
             this.textBoxSignUpPasswordRepeat.Size = new System.Drawing.Size(236, 35);
             this.textBoxSignUpPasswordRepeat.TabIndex = 6;
             // 
-            // label1
+            // labelLogin
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(215, 122);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(192, 69);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "Log in";
+            this.labelLogin.AutoSize = true;
+            this.labelLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLogin.Location = new System.Drawing.Point(215, 122);
+            this.labelLogin.Name = "labelLogin";
+            this.labelLogin.Size = new System.Drawing.Size(192, 69);
+            this.labelLogin.TabIndex = 7;
+            this.labelLogin.Text = "Log in";
             // 
-            // label2
+            // labelSignup
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(724, 120);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(232, 69);
-            this.label2.TabIndex = 8;
-            this.label2.Text = "Sign up";
+            this.labelSignup.AutoSize = true;
+            this.labelSignup.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSignup.Location = new System.Drawing.Point(724, 120);
+            this.labelSignup.Name = "labelSignup";
+            this.labelSignup.Size = new System.Drawing.Size(232, 69);
+            this.labelSignup.TabIndex = 8;
+            this.labelSignup.Text = "Sign up";
             // 
-            // label3
+            // labelLoginEmail
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(136, 229);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(74, 29);
-            this.label3.TabIndex = 9;
-            this.label3.Text = "Email";
+            this.labelLoginEmail.AutoSize = true;
+            this.labelLoginEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLoginEmail.Location = new System.Drawing.Point(136, 229);
+            this.labelLoginEmail.Name = "labelLoginEmail";
+            this.labelLoginEmail.Size = new System.Drawing.Size(74, 29);
+            this.labelLoginEmail.TabIndex = 9;
+            this.labelLoginEmail.Text = "Email";
             // 
-            // label4
+            // labelLoginPassword
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(127, 310);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(83, 29);
-            this.label4.TabIndex = 10;
-            this.label4.Text = "Parola";
+            this.labelLoginPassword.AutoSize = true;
+            this.labelLoginPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLoginPassword.Location = new System.Drawing.Point(127, 310);
+            this.labelLoginPassword.Name = "labelLoginPassword";
+            this.labelLoginPassword.Size = new System.Drawing.Size(83, 29);
+            this.labelLoginPassword.TabIndex = 10;
+            this.labelLoginPassword.Text = "Parola";
             // 
-            // label5
+            // labelSignupSurname
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(626, 222);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 29);
-            this.label5.TabIndex = 11;
-            this.label5.Text = "Nume";
+            this.labelSignupSurname.AutoSize = true;
+            this.labelSignupSurname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSignupSurname.Location = new System.Drawing.Point(626, 222);
+            this.labelSignupSurname.Name = "labelSignupSurname";
+            this.labelSignupSurname.Size = new System.Drawing.Size(78, 29);
+            this.labelSignupSurname.TabIndex = 11;
+            this.labelSignupSurname.Text = "Nume";
             // 
-            // label6
+            // labelSignupName
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(593, 304);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(111, 29);
-            this.label6.TabIndex = 12;
-            this.label6.Text = "Prenume";
+            this.labelSignupName.AutoSize = true;
+            this.labelSignupName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSignupName.Location = new System.Drawing.Point(593, 304);
+            this.labelSignupName.Name = "labelSignupName";
+            this.labelSignupName.Size = new System.Drawing.Size(111, 29);
+            this.labelSignupName.TabIndex = 12;
+            this.labelSignupName.Text = "Prenume";
             // 
-            // label7
+            // labelSignupEmail
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(630, 380);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 29);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Email";
+            this.labelSignupEmail.AutoSize = true;
+            this.labelSignupEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSignupEmail.Location = new System.Drawing.Point(630, 380);
+            this.labelSignupEmail.Name = "labelSignupEmail";
+            this.labelSignupEmail.Size = new System.Drawing.Size(74, 29);
+            this.labelSignupEmail.TabIndex = 13;
+            this.labelSignupEmail.Text = "Email";
             // 
-            // label8
+            // labelSignupPass
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(621, 461);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(83, 29);
-            this.label8.TabIndex = 14;
-            this.label8.Text = "Parola";
+            this.labelSignupPass.AutoSize = true;
+            this.labelSignupPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSignupPass.Location = new System.Drawing.Point(621, 461);
+            this.labelSignupPass.Name = "labelSignupPass";
+            this.labelSignupPass.Size = new System.Drawing.Size(83, 29);
+            this.labelSignupPass.TabIndex = 14;
+            this.labelSignupPass.Text = "Parola";
             // 
-            // label9
+            // labelSignupPassRepeat
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(539, 532);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(165, 29);
-            this.label9.TabIndex = 15;
-            this.label9.Text = "Repeta parola";
+            this.labelSignupPassRepeat.AutoSize = true;
+            this.labelSignupPassRepeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelSignupPassRepeat.Location = new System.Drawing.Point(539, 532);
+            this.labelSignupPassRepeat.Name = "labelSignupPassRepeat";
+            this.labelSignupPassRepeat.Size = new System.Drawing.Size(165, 29);
+            this.labelSignupPassRepeat.TabIndex = 15;
+            this.labelSignupPassRepeat.Text = "Repetă parola";
             // 
             // buttonLogin
             // 
@@ -236,19 +236,19 @@
             // 
             this.UserPickContent.Controls.Add(this.buttonLogin);
             this.UserPickContent.Controls.Add(this.buttonSignup);
-            this.UserPickContent.Controls.Add(this.label4);
-            this.UserPickContent.Controls.Add(this.label9);
-            this.UserPickContent.Controls.Add(this.label3);
-            this.UserPickContent.Controls.Add(this.label2);
-            this.UserPickContent.Controls.Add(this.label1);
+            this.UserPickContent.Controls.Add(this.labelLoginPassword);
+            this.UserPickContent.Controls.Add(this.labelSignupPassRepeat);
+            this.UserPickContent.Controls.Add(this.labelLoginEmail);
+            this.UserPickContent.Controls.Add(this.labelSignup);
+            this.UserPickContent.Controls.Add(this.labelLogin);
             this.UserPickContent.Controls.Add(this.textBoxLoginPassword);
-            this.UserPickContent.Controls.Add(this.label8);
+            this.UserPickContent.Controls.Add(this.labelSignupPass);
             this.UserPickContent.Controls.Add(this.textBoxLoginEmail);
             this.UserPickContent.Controls.Add(this.textBoxSignUpPasswordRepeat);
-            this.UserPickContent.Controls.Add(this.label7);
+            this.UserPickContent.Controls.Add(this.labelSignupEmail);
             this.UserPickContent.Controls.Add(this.textBoxSignUpPassword);
-            this.UserPickContent.Controls.Add(this.label6);
-            this.UserPickContent.Controls.Add(this.label5);
+            this.UserPickContent.Controls.Add(this.labelSignupName);
+            this.UserPickContent.Controls.Add(this.labelSignupSurname);
             this.UserPickContent.Controls.Add(this.textBoxSignUpEmail);
             this.UserPickContent.Controls.Add(this.textBoxSignUpName);
             this.UserPickContent.Controls.Add(this.textBoxSignUpSurname);
@@ -281,15 +281,15 @@
         private System.Windows.Forms.TextBox textBoxSignUpPassword;
         private System.Windows.Forms.TextBox textBoxSignUpEmail;
         private System.Windows.Forms.TextBox textBoxSignUpPasswordRepeat;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label labelLogin;
+        private System.Windows.Forms.Label labelSignup;
+        private System.Windows.Forms.Label labelLoginEmail;
+        private System.Windows.Forms.Label labelLoginPassword;
+        private System.Windows.Forms.Label labelSignupSurname;
+        private System.Windows.Forms.Label labelSignupName;
+        private System.Windows.Forms.Label labelSignupEmail;
+        private System.Windows.Forms.Label labelSignupPass;
+        private System.Windows.Forms.Label labelSignupPassRepeat;
         private System.Windows.Forms.Button buttonLogin;
         private System.Windows.Forms.Button buttonSignup;
         private System.Windows.Forms.Panel UserPickContent;

@@ -167,14 +167,14 @@
             this.label48 = new System.Windows.Forms.Label();
             this.label49 = new System.Windows.Forms.Label();
             this.label50 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.labelChoose = new System.Windows.Forms.Label();
+            this.labelLocuriSelectate = new System.Windows.Forms.Label();
             this.buttonFirstClassSample = new System.Windows.Forms.Button();
             this.buttonBusinessClassSample = new System.Windows.Forms.Button();
             this.buttonEconomyClassSample = new System.Windows.Forms.Button();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
+            this.labelClass1 = new System.Windows.Forms.Label();
+            this.labelClassBusiness = new System.Windows.Forms.Label();
+            this.labelEconomy = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.labelSeatPrice = new System.Windows.Forms.Label();
             this.labelSelectedSeats = new System.Windows.Forms.Label();
@@ -1580,25 +1580,25 @@
             this.label50.TabIndex = 161;
             this.label50.Text = "1";
             // 
-            // label7
+            // labelChoose
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(370, 31);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(577, 86);
-            this.label7.TabIndex = 183;
-            this.label7.Text = "Alegeți locurile";
+            this.labelChoose.AutoSize = true;
+            this.labelChoose.Font = new System.Drawing.Font("Verdana", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelChoose.Location = new System.Drawing.Point(370, 31);
+            this.labelChoose.Name = "labelChoose";
+            this.labelChoose.Size = new System.Drawing.Size(577, 86);
+            this.labelChoose.TabIndex = 183;
+            this.labelChoose.Text = "Alegeți locurile";
             // 
-            // label8
+            // labelLocuriSelectate
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(52, 668);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(312, 46);
-            this.label8.TabIndex = 184;
-            this.label8.Text = "Locuri selectate:";
+            this.labelLocuriSelectate.AutoSize = true;
+            this.labelLocuriSelectate.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelLocuriSelectate.Location = new System.Drawing.Point(52, 668);
+            this.labelLocuriSelectate.Name = "labelLocuriSelectate";
+            this.labelLocuriSelectate.Size = new System.Drawing.Size(312, 46);
+            this.labelLocuriSelectate.TabIndex = 184;
+            this.labelLocuriSelectate.Text = "Locuri selectate:";
             // 
             // buttonFirstClassSample
             // 
@@ -1630,35 +1630,35 @@
             this.buttonEconomyClassSample.TabIndex = 187;
             this.buttonEconomyClassSample.UseVisualStyleBackColor = false;
             // 
-            // label9
+            // labelClass1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(388, 566);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(86, 29);
-            this.label9.TabIndex = 188;
-            this.label9.Text = "Clasa I";
+            this.labelClass1.AutoSize = true;
+            this.labelClass1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelClass1.Location = new System.Drawing.Point(388, 566);
+            this.labelClass1.Name = "labelClass1";
+            this.labelClass1.Size = new System.Drawing.Size(86, 29);
+            this.labelClass1.TabIndex = 188;
+            this.labelClass1.Text = "Clasa I";
             // 
-            // label10
+            // labelClassBusiness
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(572, 566);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(178, 29);
-            this.label10.TabIndex = 189;
-            this.label10.Text = "Clasa Business";
+            this.labelClassBusiness.AutoSize = true;
+            this.labelClassBusiness.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelClassBusiness.Location = new System.Drawing.Point(572, 566);
+            this.labelClassBusiness.Name = "labelClassBusiness";
+            this.labelClassBusiness.Size = new System.Drawing.Size(178, 29);
+            this.labelClassBusiness.TabIndex = 189;
+            this.labelClassBusiness.Text = "Clasa Business";
             // 
-            // label11
+            // labelEconomy
             // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(814, 566);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(113, 29);
-            this.label11.TabIndex = 190;
-            this.label11.Text = "Economy";
+            this.labelEconomy.AutoSize = true;
+            this.labelEconomy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelEconomy.Location = new System.Drawing.Point(814, 566);
+            this.labelEconomy.Name = "labelEconomy";
+            this.labelEconomy.Size = new System.Drawing.Size(113, 29);
+            this.labelEconomy.TabIndex = 190;
+            this.labelEconomy.Text = "Economy";
             // 
             // label12
             // 
@@ -1715,14 +1715,14 @@
             this.ContentSeatPick.Controls.Add(this.labelSelectedSeats);
             this.ContentSeatPick.Controls.Add(this.labelSeatPrice);
             this.ContentSeatPick.Controls.Add(this.label12);
-            this.ContentSeatPick.Controls.Add(this.label11);
-            this.ContentSeatPick.Controls.Add(this.label10);
-            this.ContentSeatPick.Controls.Add(this.label9);
+            this.ContentSeatPick.Controls.Add(this.labelEconomy);
+            this.ContentSeatPick.Controls.Add(this.labelClassBusiness);
+            this.ContentSeatPick.Controls.Add(this.labelClass1);
             this.ContentSeatPick.Controls.Add(this.buttonEconomyClassSample);
             this.ContentSeatPick.Controls.Add(this.buttonBusinessClassSample);
             this.ContentSeatPick.Controls.Add(this.buttonFirstClassSample);
-            this.ContentSeatPick.Controls.Add(this.label8);
-            this.ContentSeatPick.Controls.Add(this.label7);
+            this.ContentSeatPick.Controls.Add(this.labelLocuriSelectate);
+            this.ContentSeatPick.Controls.Add(this.labelChoose);
             this.ContentSeatPick.Controls.Add(this.label6);
             this.ContentSeatPick.Controls.Add(this.label32);
             this.ContentSeatPick.Controls.Add(this.label5);
@@ -2088,14 +2088,14 @@
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label49;
         private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label labelChoose;
+        private System.Windows.Forms.Label labelLocuriSelectate;
         private System.Windows.Forms.Button buttonFirstClassSample;
         private System.Windows.Forms.Button buttonBusinessClassSample;
         private System.Windows.Forms.Button buttonEconomyClassSample;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label labelClass1;
+        private System.Windows.Forms.Label labelClassBusiness;
+        private System.Windows.Forms.Label labelEconomy;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label labelSeatPrice;
         private System.Windows.Forms.Label labelSelectedSeats;
