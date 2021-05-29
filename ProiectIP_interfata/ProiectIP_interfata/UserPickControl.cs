@@ -55,13 +55,17 @@ namespace ProiectIP_interfata
             string parola = textBoxSignUpPassword.Text;
             string verificareParola = textBoSignUpPasswordRepeat.Text;
 
-            if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola))
+            if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola) == 1)
             {
                 MessageBox.Show("V-ati inregistrat cu succes!");
             }
+            else if (_usersManager.signUp(nume, prenume, mail, parola, verificareParola) == -1)
+            {
+                MessageBox.Show("Date invalide!");
+            }
             else
             {
-                MessageBox.Show("Eroare!");
+                MessageBox.Show("Exista deja un utilizator cu acest mail");
             }
         }
         #endregion
@@ -72,7 +76,7 @@ namespace ProiectIP_interfata
         /// </summary>
         public UserPickControl()
         {
-            string myConStr = "Server=localhost;Database=proiect_ip;uid=claudiu;pwd=pass_1234";
+            string myConStr = "Server=localhost;Database=proiect_ip;uid=teodor;pwd=Dismas67!";
 
             _conn = new MySqlConnection(myConStr);
             _usersManager = new UsersManager(_conn);

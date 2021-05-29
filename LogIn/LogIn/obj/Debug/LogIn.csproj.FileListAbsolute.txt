@@ -93,3 +93,24 @@ C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\Log
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CopyComplete
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.dll
 C:\Users\Claudiu\Documents\facultate\An 3\Sem 2\ip\Proiect\Newest\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.pdb
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csprojAssemblyReference.cache
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CoreCompileInputs.cache
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.pdb
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\LogIn.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\LogIn.pdb
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\MySql.Data.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\Google.Protobuf.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\Zstandard.Net.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\BouncyCastle.Crypto.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\Ubiety.Dns.Core.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\Renci.SshNet.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Buffers.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Compression.LZ4.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Hash.xxHash.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Memory.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Numerics.Vectors.dll
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\MySql.Data.xml
+D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CopyComplete
