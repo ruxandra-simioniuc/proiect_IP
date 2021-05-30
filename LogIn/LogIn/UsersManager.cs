@@ -67,9 +67,10 @@ namespace LogIn
         {
             try
             {
+                _conn.Open();
                 if (mail == "" || parola == "")
                     return -1;
-                _conn.Open();
+                
 
                 string parola_encrypt = HashString(parola);
                 Console.WriteLine(parola_encrypt);

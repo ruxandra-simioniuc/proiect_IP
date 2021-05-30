@@ -44,7 +44,7 @@
     </Reference>
     <Reference Include="SelectareZbor, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\SelectareZbor\SelectareZbor\bin\Debug\SelectareZbor.dll</HintPath>
+      <HintPath>..\..\SelectareZbor\ConsoleApp\bin\Debug\SelectareZbor.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

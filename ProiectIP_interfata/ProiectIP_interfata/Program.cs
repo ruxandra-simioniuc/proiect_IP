@@ -16,9 +16,20 @@ namespace ProiectIP_interfata
         #region Constructors
         Singleton()
         {
+            bool result;
+            var mutex = new System.Threading.Mutex(true, "UniqueAppId", out result);
+
+            if (!result)
+            {
+                MessageBox.Show("Deja exista interfata pornita!");
+                return;
+            }
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form_RezervareBilete());
+
+            GC.KeepAlive(mutex);
         }
         #endregion
 
@@ -49,7 +60,6 @@ namespace ProiectIP_interfata
         static void Main()
         {
             Singleton singleton = Singleton.Instance();
-            Singleton singleton2 = Singleton.Instance();
 
         }
     }

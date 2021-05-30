@@ -117,7 +117,7 @@ namespace ProiectIP_interfata
             string myConStr;
             try
             {
-                myConStr = "Server=localhost;Database=proiect_ip;uid=ruxi;pwd=password";
+                myConStr = "Server=localhost;Database=proiect_ip;uid=teodor;pwd=Dismas67!";
                 _conn = new MySqlConnection(myConStr);
                 _usersManager = new UsersManager(_conn);
                 InitializeComponent();

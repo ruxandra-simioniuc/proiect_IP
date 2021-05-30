@@ -109,8 +109,6 @@ D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\Renci.SshNet.dll
 D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Buffers.dll
 D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Compression.LZ4.dll
 D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\K4os.Hash.xxHash.dll
-D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Memory.dll
 D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\System.Numerics.Vectors.dll
 D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\bin\Debug\MySql.Data.xml
 D:\proiect_ip_terminat\proiect_IP\LogIn\LogIn\obj\Debug\LogIn.csproj.CopyComplete

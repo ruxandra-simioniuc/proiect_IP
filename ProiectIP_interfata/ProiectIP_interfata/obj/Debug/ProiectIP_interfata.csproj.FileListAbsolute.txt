@@ -224,7 +224,6 @@ D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\De
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.DestinationPickControl.resources
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FinalDetailsControl.resources
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.FlightPickControl.resources
-D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Form1.resources
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Properties.Resources.resources
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.SeatPickControl.resources
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.UserPickControl.resources
@@ -235,3 +234,5 @@ D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\De
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe
 D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.pdb
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Form_RezervareBilete.resources
+D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.exe.config
+D:\proiect_ip_terminat\proiect_IP\ProiectIP_interfata\ProiectIP_interfata\obj\Debug\ProiectIP_interfata.Form_RezervareBilete.resources
