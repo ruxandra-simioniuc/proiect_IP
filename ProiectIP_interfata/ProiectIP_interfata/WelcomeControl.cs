@@ -49,6 +49,10 @@ namespace ProiectIP_interfata
         #endregion
 
         #region Contructors
+        /// <summary>
+        /// constructor ce initializeaza componetele si retine conexiunea la baza de date
+        /// </summary>
+        /// <param name="conn"></param>
         public WelcomeControl(MySqlConnection conn)
         {
             InitializeComponent();

@@ -111,3 +111,6 @@ D:\proiect_ip_terminat\proiect_IP\LogIn\ConsoleApp\obj\Debug\ConsoleApp.csproj.C
 D:\proiect_ip_terminat\proiect_IP\LogIn\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
 D:\proiect_ip_terminat\proiect_IP\LogIn\ConsoleApp\obj\Debug\ConsoleApp.exe
 D:\proiect_ip_terminat\proiect_IP\LogIn\ConsoleApp\obj\Debug\ConsoleApp.pdb
+D:\proiect_ip_interfata\proiect_IP\LogIn\ConsoleApp\bin\Debug\System.Memory.dll
+D:\proiect_ip_interfata\proiect_IP\LogIn\ConsoleApp\bin\Debug\System.Numerics.Vectors.dll
+D:\proiect_ip_interfata\proiect_IP\LogIn\ConsoleApp\obj\Debug\ConsoleApp.exe.config

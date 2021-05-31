@@ -1,6 +1,6 @@
 ﻿/**************************************************************************
  *                                                                        *
- *  File:        FlightPickCOntrol.cs                                     *
+ *  File:        DestinationPickControl.cs                                     *
  *  Autor:       Teodor Colipca                                           *         
  *  Functionalitate:    Control de unde se alege data, iar in functie de  *
  *  data se alege si destinatia                                           *

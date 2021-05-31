@@ -60,7 +60,11 @@ namespace ProiectIP_interfata
 
 
         #endregion
-
+        /// <summary>
+        /// functie ce afiseaza informatii despre interfata
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void despreToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Proiect IP 2021. Rezervarea biletelor de zbor cu plecarea din Iasi");

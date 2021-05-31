@@ -23,7 +23,10 @@ namespace ProiectIP_interfata
         #endregion
 
         #region Constructors
-        Singleton()
+        /// <summary>
+        /// constructor privat ce instantiaza obiectul
+        /// </summary>
+        private Singleton()
         {
             bool result;
             var mutex = new System.Threading.Mutex(true, "UniqueAppId", out result);
@@ -43,6 +46,10 @@ namespace ProiectIP_interfata
         #endregion
 
         #region Public Methods
+        /// <summary>
+        /// metoda ce returneaza o noua instanta sau instanta curenta daca exista deja una
+        /// </summary>
+        /// <returns></returns>
         internal static Singleton Instance()
         {
             if (instance == null)

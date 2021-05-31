@@ -113,3 +113,5 @@ D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.csproj.CopyComplete
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.dll
 D:\RUXI_DOC\Descktop\fACultate\3.2\IP\proiect_IP\SelectareZbor\SelectareZbor\obj\Debug\SelectareZbor.pdb
+D:\proiect_ip_interfata\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\System.Memory.dll
+D:\proiect_ip_interfata\proiect_IP\SelectareZbor\SelectareZbor\bin\Debug\System.Numerics.Vectors.dll
