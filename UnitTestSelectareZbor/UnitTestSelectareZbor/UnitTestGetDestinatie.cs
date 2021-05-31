@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        UnitTestGetData.cs                                       *
+ *  Autor:       Teodor Colipca                                           *         
+ *  Functionalitate:    Clasa pentru a testa preluarea informatiilor      *
+ *    legate de destinatie din tabelul zboruri                            *
+ **************************************************************************/
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SelectareZbor;
 using MySql.Data.MySqlClient;
