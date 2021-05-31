@@ -33,18 +33,24 @@ namespace ProiectIP_interfata
 
             data_aleasa = data_aleasa.Split(' ')[0];
             string[] bucati = data_aleasa.Split('/');
-            string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
-            //MessageBox.Show(format_data);
-            List<String> destinatii = _zborManager.GetDestinationBasedOnDate(format_data);
-            if(destinatii.Count > 0)
+            try
             {
-                comboBoxDestination.DataSource = destinatii;
+                string format_data = bucati[1] + "." + bucati[0] + "." + bucati[2];
+                List<String> destinatii = _zborManager.GetDestinationBasedOnDate(format_data);
+                if (destinatii.Count > 0)
+                {
+                    comboBoxDestination.DataSource = destinatii;
+                }
+                else
+                {
+                    comboBoxDestination.DataSource = null;
+                    comboBoxDestination.Items.Clear();
+                    comboBoxDestination.ResetText();
+                }
             }
-            else
+            catch(Exception ex)
             {
-                comboBoxDestination.DataSource = null;
-                comboBoxDestination.Items.Clear();
-                comboBoxDestination.ResetText();
+                MessageBox.Show(ex.Message);
             }
             
 
