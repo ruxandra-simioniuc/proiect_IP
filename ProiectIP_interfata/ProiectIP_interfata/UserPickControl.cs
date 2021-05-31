@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        UserPickControl.cs                                       *
+ *  Autor:       Matei Chiteala                                           *         
+ *  Functionalitate:    Panel unde utilizatorul se poate autentifica sau  *
+ *  crea un cont nou                                                      *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;

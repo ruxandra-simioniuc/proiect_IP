@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Form_RezervareBilete.cs                                  *
+ *  Autor:       Ruxandra Simioniuc                                       *         
+ *  Functionalitate:    Formularul principal, template-ul unde se afiseaza*
+ *  pe rand toate panel-urile; contine butoane de Help, Despre, Iesire    *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -50,8 +58,12 @@ namespace ProiectIP_interfata
             Help.ShowHelp(this, @"../../Resources/Rezervare bilete avion.chm");
         }
 
+
         #endregion
 
-
+        private void despreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Proiect IP 2021. Rezervarea biletelor de zbor cu plecarea din Iasi");
+        }
     }
 }

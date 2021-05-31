@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        FlightPickControl.cs                                     *
+ *  Autor:       Necula Claudiu                                           *         
+ *  Functionalitate:    Panel unde se incarca zborurile disponibile si se *
+ *  poate selecta zborul dorit                                            *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;

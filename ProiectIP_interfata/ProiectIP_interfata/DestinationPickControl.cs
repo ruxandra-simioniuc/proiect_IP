@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        FlightPickCOntrol.cs                                     *
+ *  Autor:       Teodor Colipca                                           *         
+ *  Functionalitate:    Control de unde se alege data, iar in functie de  *
+ *  data se alege si destinatia                                           *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;

@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        FinalDetailsControl.cs                                   *
+ *  Autor:       Ruxandra Simioniuc                                       *         
+ *  Functionalitate:    Panel-ul care este afisat duap ce se finalizeaza  *
+ *  alegerea locurilor                                                    *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;

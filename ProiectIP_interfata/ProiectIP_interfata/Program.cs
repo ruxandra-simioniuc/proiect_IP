@@ -1,4 +1,13 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        Program.cs                                               *
+ *  Autor:       Matei Chiteala                                           *         
+ *  Functionalitate:    Programul principal, implementat cu modelul de    *
+ *  proiectare Singleton                                                  *
+ **************************************************************************/
+
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;

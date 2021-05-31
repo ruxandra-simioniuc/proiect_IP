@@ -1,4 +1,12 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        SeatPickCOntrol.cs                                       *
+ *  Autor:       Necula Claudiu                                           *         
+ *  Functionalitate:    Panel unde se incarca locurile ocupate si se pot  *
+ *  selecta locuri neocupate                                              *
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;

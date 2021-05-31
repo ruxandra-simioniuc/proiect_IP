@@ -101,27 +101,28 @@
             this.ieșireToolStripMenuItem});
             this.menuStripOptions.Location = new System.Drawing.Point(0, 0);
             this.menuStripOptions.Name = "menuStripOptions";
-            this.menuStripOptions.Size = new System.Drawing.Size(2274, 54);
+            this.menuStripOptions.Size = new System.Drawing.Size(1516, 33);
             this.menuStripOptions.TabIndex = 5;
             this.menuStripOptions.Text = "menuStrip1";
             // 
             // ajutorToolStripMenuItem
             // 
             this.ajutorToolStripMenuItem.Name = "ajutorToolStripMenuItem";
-            this.ajutorToolStripMenuItem.Size = new System.Drawing.Size(77, 48);
+            this.ajutorToolStripMenuItem.Size = new System.Drawing.Size(77, 29);
             this.ajutorToolStripMenuItem.Text = "Ajutor";
             this.ajutorToolStripMenuItem.Click += new System.EventHandler(this.ajutorToolStripMenuItem_Click);
             // 
             // despreToolStripMenuItem
             // 
             this.despreToolStripMenuItem.Name = "despreToolStripMenuItem";
-            this.despreToolStripMenuItem.Size = new System.Drawing.Size(84, 48);
+            this.despreToolStripMenuItem.Size = new System.Drawing.Size(84, 29);
             this.despreToolStripMenuItem.Text = "Despre";
+            this.despreToolStripMenuItem.Click += new System.EventHandler(this.despreToolStripMenuItem_Click);
             // 
             // ieșireToolStripMenuItem
             // 
             this.ieșireToolStripMenuItem.Name = "ieșireToolStripMenuItem";
-            this.ieșireToolStripMenuItem.Size = new System.Drawing.Size(69, 48);
+            this.ieșireToolStripMenuItem.Size = new System.Drawing.Size(69, 29);
             this.ieșireToolStripMenuItem.Text = "Ieșire";
             this.ieșireToolStripMenuItem.Click += new System.EventHandler(this.ieșireToolStripMenuItem_Click);
             // 

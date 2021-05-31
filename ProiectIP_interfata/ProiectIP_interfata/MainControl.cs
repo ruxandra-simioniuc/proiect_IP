@@ -2,10 +2,8 @@
  *                                                                        *
  *  File:        MainControl.cs                                           *
  *  Autor:       Ruxandra Simioniuc                                       *         
- *  Functionalitate:          *
- *  *
- *                                                                        *    
- *                                                                        *
+ *  Functionalitate:    Clasa care realizeaza trecerea de la un panel la  *
+ *  altul                                                                 *
  **************************************************************************/
 
 

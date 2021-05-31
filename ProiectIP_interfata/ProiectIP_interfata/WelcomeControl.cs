@@ -1,4 +1,11 @@
-﻿using System;
+﻿/**************************************************************************
+ *                                                                        *
+ *  File:        WelcomeControl.cs                                        *
+ *  Autor:       Ruxandra Simioniuc                                       *         
+ *  Functionalitate:    Panel care apare cand un utilizator se autentifica*
+ **************************************************************************/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
