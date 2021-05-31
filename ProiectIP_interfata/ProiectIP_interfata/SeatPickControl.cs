@@ -1,6 +1,6 @@
 ﻿/**************************************************************************
  *                                                                        *
- *  File:        SeatPickCOntrol.cs                                       *
+ *  File:        SeatPickControl.cs                                       *
  *  Autor:       Necula Claudiu                                           *         
  *  Functionalitate:    Panel unde se incarca locurile ocupate si se pot  *
  *  selecta locuri neocupate                                              *
